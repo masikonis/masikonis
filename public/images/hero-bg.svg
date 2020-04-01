@@ -1,0 +1,46 @@
+<svg version="1.2" baseProfile="tiny" id="hero-bg" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+		x="0px" y="0px" width="173.09px" height="131.029px" viewBox="-32.823 -39.623 173.09 131.029" xml:space="preserve">
+	<g>
+		<path id="hero-bg--element1" fill="none" stroke="#FFFFFF" stroke-width="1.3" stroke-miterlimit="10" d="M88.16,72.894H-30.689
+			c-0.841,0-1.484-0.643-1.484-1.484V-0.83c0-0.841,0.643-1.484,1.484-1.484H88.16c0.841,0,1.484,0.643,1.484,1.484V71.41
+			C89.644,72.201,88.951,72.894,88.16,72.894z"/>
+		<line id="hero-bg--element2" fill="none" stroke="#FFFFFF" stroke-width="1.3" stroke-miterlimit="10" x1="-32.173" y1="5.751" x2="89.644" y2="5.751"/>
+		<line id="hero-bg--element3" fill="none" stroke="#FFFFFF" stroke-width="1.3" stroke-miterlimit="10" x1="-32.173" y1="64.186" x2="89.644" y2="64.186"/>
+		<circle id="hero-bg--element4" fill="none" stroke="#FFFFFF" stroke-width="1.3" stroke-miterlimit="10" cx="28.735" cy="68.783" r="0.99"/>
+		<path id="hero-bg--element5" fill="none" stroke="#FFFFFF" stroke-width="1.3" stroke-miterlimit="10" d="M-1.861,55.86h61.749
+			c0.627,0,1.139-0.513,1.139-1.139V14.504c0-0.627-0.513-1.139-1.139-1.139H-1.861C-2.488,13.365-3,13.878-3,14.504v40.217
+			C-3,55.347-2.488,55.86-1.861,55.86z"/>
+		<polyline id="hero-bg--element6" fill="none" stroke="#FFFFFF" stroke-width="1.3" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" points="
+			37.204,30.318 43.446,34.904 37.204,39.49 "/>
+		<line id="hero-bg--element7" fill="none" stroke="#FFFFFF" stroke-width="1.3" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" x1="33.51" y1="24.741" x2="24.594" y2="44.484"/>
+		<rect id="hero-bg--element8" x="14.832" y="72.894" fill="none" stroke="#FFFFFF" stroke-width="1.3" stroke-miterlimit="10" width="27.807" height="14.448"/>
+		<path id="hero-bg--element9" fill="none" stroke="#FFFFFF" stroke-width="1.3" stroke-miterlimit="10" d="M52.881,90.756H4.639
+			c-0.495,0-0.94-0.396-0.94-0.94v-1.583c0-0.495,0.396-0.94,0.94-0.94h48.242c0.495,0,0.94,0.396,0.94,0.94v1.583
+			C53.772,90.36,53.376,90.756,52.881,90.756z"/>
+		<path id="hero-bg--element10" fill="none" stroke="#FFFFFF" stroke-width="1.3" stroke-miterlimit="10" d="M102.162,90.756h30.578
+			c0.544,0,0.99-0.445,0.99-0.99v-1.682c0-0.544-0.445-0.99-0.99-0.99h-30.578c-0.544,0-0.99,0.445-0.99,0.99v1.682
+			C101.172,90.31,101.618,90.756,102.162,90.756z"/>
+		<circle id="hero-bg--element11" fill="none" stroke="#FFFFFF" stroke-width="1.3" stroke-miterlimit="10" cx="135.164" cy="22.327" r="4.453"/>
+		<line id="hero-bg--element12" fill="none" stroke="#FFFFFF" stroke-width="1.3" stroke-miterlimit="10" x1="134.719" y1="17.873" x2="94.634" y2="-29.98"/>
+		<line id="hero-bg--element13" fill="none" stroke="#FFFFFF" stroke-width="1.3" stroke-miterlimit="10" x1="131.157" y1="20.347" x2="98.118" y2="-18.491"/>
+		<line id="hero-bg--element14" fill="none" stroke="#FFFFFF" stroke-width="1.3" stroke-miterlimit="10" x1="133.235" y1="26.384" x2="115.818" y2="76.654"/>
+		<line id="hero-bg--element15" fill="none" stroke="#FFFFFF" stroke-width="1.3" stroke-miterlimit="10" x1="138.084" y1="25.741" x2="120.42" y2="76.902"/>
+		<polyline id="hero-bg--element16" fill="none" stroke="#FFFFFF" stroke-width="1.3" stroke-miterlimit="10" points="124.329,83.334 124.329,87.094 
+			110.573,87.094 110.573,83.334 "/>
+		<path id="hero-bg--element17" fill="none" stroke="#FFFFFF" stroke-width="1.3" stroke-miterlimit="10" d="M124.329,83.334c0-3.81-3.068-6.878-6.878-6.878
+			s-6.878,3.068-6.878,6.878"/>
+		<path id="hero-bg--element18" fill="none" stroke="#FFFFFF" stroke-width="1.3" stroke-miterlimit="10" d="M64.074-17.702h34.289
+			c0-11.281-7.669-19.297-17.169-19.297S64.074-29.082,64.074-17.702z"/>
+		<path id="hero-bg--element19" fill="none" stroke="#FFFFFF" stroke-width="1.3" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" d="
+			M88.277-17.474c0,3.627-2.94,6.567-6.567,6.567c-3.627,0-6.567-2.94-6.567-6.567"/>
+		<circle id="hero-bg--element20" fill="none" stroke="#FFFFFF" stroke-width="1.3" stroke-miterlimit="10" cx="135.164" cy="22.327" r="0.99"/>
+		<polyline id="hero-bg--element21" fill="none" stroke="#FFFFFF" stroke-width="1.3" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" points="
+			20.275,30.318 14.033,34.904 20.275,39.49 "/>
+		<circle id="hero-bg--element22" fill="none" stroke="#FFFFFF" stroke-width="1.3" stroke-miterlimit="10" cx="0.97" cy="17.035" r="0.97"/>
+		<circle id="hero-bg--element23" fill="none" stroke="#FFFFFF" stroke-width="1.3" stroke-miterlimit="10" cx="4.971" cy="17.035" r="0.97"/>
+		<circle id="hero-bg--element24" fill="none" stroke="#FFFFFF" stroke-width="1.3" stroke-miterlimit="10" cx="8.971" cy="17.035" r="0.97"/>
+		<path id="hero-bg--element25" fill="none" stroke="#FFFFFF" stroke-width="1.3" stroke-miterlimit="10" d="M79.509-36.933v-0.331
+			c0-0.944,0.765-1.71,1.71-1.71l0,0c0.944,0,1.71,0.765,1.71,1.71v0.331"/>
+		<circle id="hero-bg--element26" fill="none" stroke="#FFFFFF" stroke-width="1.3" stroke-miterlimit="10" cx="117.451" cy="82.344" r="0.99"/>
+	</g>
+</svg>
