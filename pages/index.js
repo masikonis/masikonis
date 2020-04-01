@@ -19,6 +19,7 @@ class Index extends React.Component {
                 <Head>
                     <title>Full-Stack Web Developer – Nerijus Masikonis</title>
                     <link rel="shortcut icon" href="/images/favicon.ico" />
+                    <meta key="robots" name="robots" content="noindex,nofollow" />
                 </Head>
                 <CookieBar />
                 <IndexLayout>
