@@ -30,7 +30,11 @@ const listData = [
 const listItems = listData.map((testimonial, key) => {
     return (
         <li key={key}>
-            <img src={require(`${testimonial.image}`)} alt={testimonial.alt} />
+            <picture>
+                <source srcSet={require(`${testimonial.image}?webp`)} type="image/webp" />
+                <source srcSet={require(`${testimonial.image}`)} type="image/jpeg" />
+                <img src={require(`${testimonial.image}`)} alt={testimonial.alt} />
+            </picture>
             <p>{testimonial.quote}</p>
             <div className="separator"></div>
             <div className="author">
