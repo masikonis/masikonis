@@ -1,9 +1,9 @@
-import variables from '../variables';
+import variables from '../../variables';
 import Vimeo from '@vimeo/player';
 
 const listData = [
     {
-        'image': '',
+        'image': './images/kim-cruickshanks.jpg',
         'alt': 'Kim Cruickshanks',
         'quote': "There are many developers out there, but very few that are as trustworthy and on top of things as Nerijus. Our agency continues to turn to him for help, and he always delivers. On top of his sharp skill set, he is an absolute pleasure to work with.",
         'name': 'Kim Cruickshanks',
@@ -11,7 +11,7 @@ const listData = [
         'location': 'Los Angeles, USA'
     },
     {
-        'image': '',
+        'image': './images/christophe-prudent.jpg',
         'alt': 'Christophe Prudent',
         'quote': "Our agency had the fortune of working with Nerijus for more than 7 years. His development skills and expertise made him an invaluable part of our web development team. We absolutely offer our highest possible recommendation.",
         'name': 'Christophe Prudent',
@@ -19,7 +19,7 @@ const listData = [
         'location': 'Geneva, Switzerland'
     },
     {
-        'image': '',
+        'image': './images/daniel-meza.jpg',
         'alt': 'Daniel Meza',
         'quote': "Working with Nerijus as an agency has made our process and workflow unbelievable. He is incredibly talented WordPress developer but what really makes him stand out is his work ethic and steady approach. I highly recommend Nerijus.",
         'name': 'Daniel Meza',
@@ -30,7 +30,7 @@ const listData = [
 const listItems = listData.map((testimonial, key) => {
     return (
         <li key={key}>
-            <img src={testimonial.image} alt={testimonial.alt} />
+            <img src={require(`${testimonial.image}`)} alt={testimonial.alt} />
             <p>{testimonial.quote}</p>
             <div className="separator"></div>
             <div className="author">

@@ -19,7 +19,10 @@
     "@fortawesome/react-fontawesome": "^0.1.9",
     "@vimeo/player": "^2.10.0",
     "fontfaceobserver": "^2.1.0",
+    "imagemin-mozjpeg": "^8.0.0",
     "next": "^9.3.3",
+    "next-compose-plugins": "^2.2.0",
+    "next-optimized-images": "^2.5.7",
     "react": "^16.13.1",
     "react-dom": "^16.13.1",
     "react-svgmt": "^1.1.11"

@@ -5,7 +5,7 @@ import Drift from '../components/Public/Utilities/Drift';
 import CookieBar from '../components/Public/Utilities/CookieBar';
 import IndexLayout from '../components/Public/Layouts/Index';
 import Hero from '../components/Public/Content/Hero';
-import Testimonials from '../components/Public/Content/Testimonials';
+import Testimonials from '../components/Public/Content/Testimonials/Testimonials';
 
 class Index extends React.Component {
     componentDidMount() {
