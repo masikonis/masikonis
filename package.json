@@ -26,6 +26,7 @@
     "react": "^16.13.1",
     "react-dom": "^16.13.1",
     "react-svgmt": "^1.1.11",
+    "sass": "^1.26.3",
     "webp-loader": "^0.6.0"
   },
   "devDependencies": {

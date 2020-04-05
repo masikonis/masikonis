@@ -1,0 +1,38 @@
+@import '../../../../sass/mixins';
+@import '../../../../sass/public/variables';
+
+.testimonials {
+    background: $color-lightgrey;
+    padding-top: 65px;
+    padding-bottom: 65px;
+
+    h2 {
+        font-family: $font-family-secondary;
+        font-weight: 400;
+        font-size: 2.25rem;
+        text-align: center;
+    }
+
+    h3 {
+        font-family: $font-family-primary;
+        font-weight: 400;
+        font-size: 1rem;
+        text-align: center;
+        margin-top: 15px;
+    }
+
+    .video {
+        max-width: 80%;
+        margin: 0 auto;
+        margin-top: 50px;
+        margin-bottom: 50px;
+    }
+
+    ul {
+        list-style-type: none;
+
+        li {
+            display: block;
+        }
+    }
+}
