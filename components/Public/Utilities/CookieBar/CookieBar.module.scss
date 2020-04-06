@@ -1,0 +1,37 @@
+@import '../../../../sass/mixins';
+@import '../../../../sass/public/variables';
+
+.cookieBar {
+    opacity: 1;
+    padding: 22px 20px 22px;
+    box-sizing: border-box;
+    z-index: 99999;
+    overflow: hidden;
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+    background-color: #ffffff;
+    text-align: center;
+    transition: all 0.25s;
+
+    span {
+        font-family: $font-family-primary;
+        font-weight: 400;
+        font-size: 1rem;
+        color: $color-blue;
+    }
+
+    a {
+        margin-left: 20px;
+        font-family: $font-family-primary;
+        font-weight: 400;
+        font-size: 1rem;
+        background: $color-blue;
+        color: $color-white;
+        text-decoration: none;
+        text-align: center;
+        padding: 6px 9px;
+        border-radius: 3px;
+    }
+}

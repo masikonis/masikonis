@@ -1,5 +1,5 @@
-import styles from './Testimonials.module.scss';
 import Vimeo from '@vimeo/player';
+import styles from './Testimonials.module.scss';
 
 const listData = [
     {

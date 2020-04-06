@@ -1,0 +1,8 @@
+@import '../../../../sass/mixins';
+@import '../../../../sass/public/variables';
+
+.indexLayout {
+    background: $color-blue;
+    font-family: $font-family-primary;
+    color: $color-black;
+}

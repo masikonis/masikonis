@@ -1,0 +1,60 @@
+@import '../../../../sass/mixins';
+@import '../../../../sass/public/variables';
+
+.hero {
+    padding-bottom: 100px;
+
+    .bg {
+        position: absolute;
+        top: 0;
+        right: 0;
+        opacity: 0.25;
+    }
+
+    h1 {
+        margin: 0;
+        padding: 0;
+        font-family: $font-family-secondary;
+        font-weight: 400;
+        font-size: 3.5rem;
+        line-height: 3.85rem;
+        color: $color-white;
+        padding-top: 243px;
+        user-select: none;
+
+        span {
+            display: block;
+        }
+    }
+
+    h2 {
+        margin: 0;
+        padding: 0;
+        font-family: $font-family-primary;
+        font-weight: 400;
+        font-size: 1.375rem;
+        color: $color-white;
+        margin-top: 20px;
+        user-select: none;
+    }
+
+    a {
+        display: inline-block;
+        font-family: $font-family-primary;
+        font-weight: 700;
+        font-size: 1rem;
+        color: $color-blue;
+        background: $color-white;
+        text-transform: uppercase;
+        text-decoration: none;
+        padding: 21px 32px;
+        margin-top: 42px;
+        border-radius: .25rem;
+        transition: all .2s ease-in-out;
+
+        &:hover {
+            background: $color-black;
+            color: $color-white;
+        }
+    }
+}
