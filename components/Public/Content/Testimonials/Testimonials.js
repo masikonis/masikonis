@@ -1,3 +1,5 @@
+import {FontAwesomeIcon} from '@fortawesome/react-fontawesome';
+import {faQuoteLeft} from '@fortawesome/free-solid-svg-icons';
 import Vimeo from '@vimeo/player';
 import styles from './Testimonials.module.scss';
 
@@ -30,18 +32,18 @@ const listData = [
 
 const listItems = listData.map((testimonial, key) => {
     return (
-        <li key={key}>
+        <li key={key} className={styles.list__item}>
             <picture>
                 <source srcSet={require('./images/' + testimonial.image + '?webp')} type="image/webp" />
                 <source srcSet={require('./images/' + testimonial.image)} type="image/jpeg" />
                 <img src={require('./images/' + testimonial.image)} alt={testimonial.alt} />
             </picture>
-            <p>{testimonial.quote}</p>
-            <div className="separator"></div>
-            <div className="author">
-                <div className="author__name">{testimonial.name}</div>
-                <div className="author__company">{testimonial.company}</div>
-                <div className="author__location">{testimonial.location}</div>
+            <p className={styles.quote}><FontAwesomeIcon icon={faQuoteLeft} /> {testimonial.quote}</p>
+            <hr />
+            <div className={styles.author}>
+                <div className={styles.author__name}>{testimonial.name}</div>
+                <div className={styles.author__company}>{testimonial.company}</div>
+                <div className={styles.author__location}>{testimonial.location}</div>
             </div>
         </li>
     );
@@ -60,10 +62,11 @@ class Testimonials extends React.Component {
         return(
             <div className={styles.testimonials}>
                 <div className="container">
-                    <h2>What People Say About Me</h2>
-                    <h3>I have been lucky to work with fantastic people over the years. See what some of them have to say.</h3>
+                    <h2 className={styles.heading}>What People Say About Me</h2>
+                    <h3 className={styles.subheading}>I have been lucky to work with fantastic people over the years. See what some of them have to say.</h3>
                     <div id="video" className={styles.video}></div>
-                    <ul>{listItems}</ul>
+                    <ul className={styles.list}>{listItems}</ul>
+                    <a href="https://codeable.io/developers/nerijus-masikonis/#reviews" className={styles.cta} target="_blank">More Testimonials</a>
                 </div>
             </div>
         );

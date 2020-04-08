@@ -17,10 +17,10 @@
             font-size: 0.75rem;
         }
     
-        .socialLinks {
+        .links {
             flex: 1;
     
-            ul {
+            .socialLinks {
                 position: relative;
                 top: -5px;
                 list-style-type: none;
@@ -29,8 +29,8 @@
                 display: flex;
                 justify-content: flex-end;
     
-                li {
-                    &.linkedin {
+                .socialLink {
+                    &__linkedin {
                         margin-right: 5px;
                     }
     

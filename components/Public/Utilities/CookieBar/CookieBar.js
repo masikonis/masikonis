@@ -3,8 +3,8 @@ import styles from './CookieBar.module.scss';
 const CookieBar = () => (
     <div className={styles.cookieBar}>
         <div className="container">
-            <span>This site uses cookies. By continuing to browse the site, you are agreeing to use of cookies.</span>
-            <a href="#">Okay, thanks</a>
+            <span className={styles.text}>This site uses cookies. By continuing to browse the site, you are agreeing to use of cookies.</span>
+            <a href="#" className={styles.cta}>Okay, thanks</a>
         </div>
     </div>
 );

@@ -15,14 +15,14 @@
     text-align: center;
     transition: all 0.25s;
 
-    span {
+    .text {
         font-family: $font-family-primary;
         font-weight: 400;
         font-size: 1rem;
         color: $color-blue;
     }
 
-    a {
+    .cta {
         margin-left: 20px;
         font-family: $font-family-primary;
         font-weight: 400;

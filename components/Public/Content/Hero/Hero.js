@@ -25,9 +25,9 @@ const Hero = () => (
                     />
                 </SvgLoader>
             </div>
-            <h1>I'm Your Go-To Developer for<span> </span>Everything Web-Related</h1>
-            <h2>Most of the other developers have no expertise in digital marketing. I do have.</h2>
-            <a href="">Get to know me better</a>
+            <h1 className={styles.heading}>I'm Your Go-To Developer for<span> </span>Everything Web-Related</h1>
+            <h2 className={styles.subheading}>Most of the other developers have no expertise in digital marketing. I do have.</h2>
+            <a href="" className={styles.cta}>Get to know me better</a>
         </div>
     </div>
 );
