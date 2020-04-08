@@ -1,4 +1,5 @@
 import {SvgLoader, SvgProxy, TransformMotion} from 'react-svgmt';
+import Button from '../../Elements/Button/Button';
 import styles from './Hero.module.scss';
 
 const Hero = () => (
@@ -27,7 +28,7 @@ const Hero = () => (
             </div>
             <h1 className={styles.heading}>I'm Your Go-To Developer for<span> </span>Everything Web-Related</h1>
             <h2 className={styles.subheading}>Most of the other developers have no expertise in digital marketing. I do have.</h2>
-            <a href="" className={styles.cta}>Get to know me better</a>
+            <Button href="#" type="secondary">Get to know me better</Button>
         </div>
     </div>
 );

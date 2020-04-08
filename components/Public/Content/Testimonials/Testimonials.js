@@ -1,6 +1,7 @@
 import {FontAwesomeIcon} from '@fortawesome/react-fontawesome';
 import {faQuoteLeft} from '@fortawesome/free-solid-svg-icons';
 import Vimeo from '@vimeo/player';
+import Button from '../../Elements/Button/Button';
 import styles from './Testimonials.module.scss';
 
 const listData = [
@@ -66,7 +67,9 @@ class Testimonials extends React.Component {
                     <h3 className={styles.subheading}>I have been lucky to work with fantastic people over the years. See what some of them have to say.</h3>
                     <div id="video" className={styles.video}></div>
                     <ul className={styles.list}>{listItems}</ul>
-                    <a href="https://codeable.io/developers/nerijus-masikonis/#reviews" className={styles.cta} target="_blank">More Testimonials</a>
+                    <Button href="https://codeable.io/developers/nerijus-masikonis/#reviews" type="primary" target="_blank">
+                        See More Testimonials
+                    </Button>
                 </div>
             </div>
         );
