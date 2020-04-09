@@ -28,7 +28,9 @@ const Hero = () => (
             </div>
             <h1 className={styles.heading}>I'm Your Go-To Developer for<span> </span>Everything Web-Related</h1>
             <h2 className={styles.subheading}>Most of the other developers have no expertise in digital marketing. I do have.</h2>
-            <Button href="#" type="secondary">Get to know me better</Button>
+            <div className={styles.cta}>
+                <Button href="#" type="secondary">Get to know me better</Button>
+            </div>
         </div>
     </div>
 );

@@ -5,28 +5,44 @@
     display: inline-block;
     font-family: $font-family-primary;
     font-weight: 700;
-    font-size: 1rem;
-    color: $color-white;
-    background: $color-blue;
     text-transform: uppercase;
     text-decoration: none;
-    padding: 21px 32px;
-    margin-top: 42px;
     border-radius: .25rem;
     transition: all .2s ease-in-out;
 
-    &:hover {
-        background: $color-white;
-        color: $color-black;
+    &__type {
+        &--primary {
+            background: $color-blue;
+            color: $color-white;
+            border: 1px solid $color-white;
+
+            &:hover {
+                background: $color-white;
+                color: $color-black;
+                border: 1px solid $color-black;
+            }
+        }
+
+        &--secondary {
+            color: $color-blue;
+            background: $color-white;
+
+            &:hover {
+                background: $color-black;
+                color: $color-white;
+            }
+        }
     }
 
-    &__secondary {
-        color: $color-blue;
-        background: $color-white;
+    &__size {
+        &--small {
+            font-size: 0.75rem;
+            padding: 10px 15px;
+        }
 
-        &:hover {
-            background: $color-black;
-            color: $color-white;
+        &--large {
+            font-size: 1rem;
+            padding: 21px 32px;
         }
     }
 }

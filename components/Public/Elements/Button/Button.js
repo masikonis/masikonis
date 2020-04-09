@@ -3,14 +3,15 @@ import styles from './Button.module.scss';
 
 class Button extends React.Component {
     render() {
-        let buttonClass = 'button__primary';
-
-        if(this.props.type === 'secondary') {
-            buttonClass = 'button__secondary';
-        }
+        const {
+            href,
+            type = 'primary',
+            size = 'large',
+            target
+        } = this.props;
 
         return(
-            <a href={this.props.href} className={classnames(styles.button, styles[`${buttonClass}`])} target={this.props.target}>
+            <a href={this.props.href} className={classnames(styles.button, styles[`button__type--${type}`], styles[`button__size--${size}`])} target={this.props.target}>
                 {this.props.children}
             </a>
         );

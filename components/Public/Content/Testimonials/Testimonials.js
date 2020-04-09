@@ -67,9 +67,11 @@ class Testimonials extends React.Component {
                     <h3 className={styles.subheading}>I have been lucky to work with fantastic people over the years. See what some of them have to say.</h3>
                     <div id="video" className={styles.video}></div>
                     <ul className={styles.list}>{listItems}</ul>
-                    <Button href="https://codeable.io/developers/nerijus-masikonis/#reviews" type="primary" target="_blank">
-                        See More Testimonials
-                    </Button>
+                    <div className={styles.cta}>
+                        <Button href="https://codeable.io/developers/nerijus-masikonis/#reviews" target="_blank">
+                            Read More Testimonials
+                        </Button>
+                    </div>
                 </div>
             </div>
         );
