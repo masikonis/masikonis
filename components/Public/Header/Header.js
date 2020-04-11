@@ -13,7 +13,7 @@ const Header = () => {
                 <div className={styles[`header__wrapper`]}>
                     <Link href="/">
                         <a className={styles.logo}>
-                            <img src={require('./images/logo.svg?inline')} />
+                            <img src={require('./images/logo.svg?inline')} loading="lazy" />
                         </a>
                     </Link>
                     <nav className={styles.menu}>

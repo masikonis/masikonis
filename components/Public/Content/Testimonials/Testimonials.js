@@ -37,7 +37,7 @@ const listItems = listData.map((testimonial, key) => {
             <picture>
                 <source srcSet={require('./images/' + testimonial.image + '?webp')} type="image/webp" />
                 <source srcSet={require('./images/' + testimonial.image)} type="image/jpeg" />
-                <img src={require('./images/' + testimonial.image)} alt={testimonial.alt} className={styles.testimonial__image} />
+                <img src={require('./images/' + testimonial.image)} alt={testimonial.alt} className={styles.testimonial__image} loading="lazy" />
             </picture>
             <p className={styles.testimonial__quote}><FontAwesomeIcon icon={faQuoteLeft} /> {testimonial.quote}</p>
             <hr />
