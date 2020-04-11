@@ -1,7 +1,7 @@
-
 import Head from 'next/head';
 import Fonts from '../components/Public/Fonts';
 import Drift from '../components/Public/Utilities/Drift';
+import MetaTags from '../components/Public/Utilities/MetaTags';
 import CookieBar from '../components/Public/Utilities/CookieBar/CookieBar';
 import IndexLayout from '../components/Public/Layouts/Index/Index';
 import Hero from '../components/Public/Content/Hero/Hero';
@@ -18,9 +18,8 @@ class Index extends React.Component {
             <div className="index-page">
                 <Head>
                     <title>Full-Stack Web Developer – Nerijus Masikonis</title>
-                    <link rel="shortcut icon" href="/images/favicon.ico" />
-                    <meta key="robots" name="robots" content="noindex,nofollow" />
                 </Head>
+                <MetaTags />
                 <CookieBar />
                 <IndexLayout>
                     <Hero />
