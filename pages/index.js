@@ -18,6 +18,7 @@ class Index extends React.Component {
             <div className="index-page">
                 <Head>
                     <title>Full-Stack Web Developer – Nerijus Masikonis</title>
+                    <link rel="preconnect" href="https://i.vimeocdn.com" />
                 </Head>
                 <MetaTags />
                 <CookieBar />
