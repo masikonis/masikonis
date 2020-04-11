@@ -1,3 +1,11 @@
+// Media queries
+@mixin desktop {
+    @media (min-width: 1200px) {
+        @content;
+    }
+}
+
+// Visual snippets
 @mixin border-radius($radius) {
     -webkit-border-radius: $radius;
     -moz-border-radius: $radius;

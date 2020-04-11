@@ -33,13 +33,13 @@ const listData = [
 
 const listItems = listData.map((testimonial, key) => {
     return (
-        <li key={key} className={styles.list__item}>
+        <li key={key} className={styles.testimonial}>
             <picture>
                 <source srcSet={require('./images/' + testimonial.image + '?webp')} type="image/webp" />
                 <source srcSet={require('./images/' + testimonial.image)} type="image/jpeg" />
-                <img src={require('./images/' + testimonial.image)} alt={testimonial.alt} />
+                <img src={require('./images/' + testimonial.image)} alt={testimonial.alt} className={styles.testimonial__image} />
             </picture>
-            <p className={styles.quote}><FontAwesomeIcon icon={faQuoteLeft} /> {testimonial.quote}</p>
+            <p className={styles.testimonial__quote}><FontAwesomeIcon icon={faQuoteLeft} /> {testimonial.quote}</p>
             <hr />
             <div className={styles.author}>
                 <div className={styles.author__name}>{testimonial.name}</div>
@@ -63,11 +63,11 @@ class Testimonials extends React.Component {
         return(
             <div className={styles.testimonials}>
                 <div className="container">
-                    <h2 className={styles.heading}>What People Say About Me</h2>
-                    <h3 className={styles.subheading}>I have been lucky to work with fantastic people over the years. See what some of them have to say.</h3>
-                    <div id="video" className={styles.video}></div>
-                    <ul className={styles.list}>{listItems}</ul>
-                    <div className={styles.cta}>
+                    <h2 className={styles.testimonials__heading}>What People Say About Me</h2>
+                    <h3 className={styles.testimonials__subheading}>I have been lucky to work with fantastic people over the years. See what some of them have to say.</h3>
+                    <div id="video" className={styles.testimonials__video}></div>
+                    <ul className={styles.testimonials__list}>{listItems}</ul>
+                    <div className={styles.testimonials__cta}>
                         <Button href="https://codeable.io/developers/nerijus-masikonis/#reviews" target="_blank">
                             Read More Testimonials
                         </Button>

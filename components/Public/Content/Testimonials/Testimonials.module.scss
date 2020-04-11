@@ -6,14 +6,14 @@
     padding-top: 65px;
     padding-bottom: 65px;
 
-    .heading {
+    &__heading {
         font-family: $font-family-secondary;
         font-weight: 400;
         font-size: 2.25rem;
         text-align: center;
     }
 
-    .subheading {
+    &__subheading {
         font-family: $font-family-primary;
         font-weight: 400;
         font-size: 1rem;
@@ -21,18 +21,18 @@
         margin-top: 15px;
     }
 
-    .video {
+    &__video {
         max-width: 80%;
         margin: 0 auto;
         margin-top: 50px;
         margin-bottom: 55px;
     }
 
-    .list {
+    &__list {
         display: flex;
         list-style-type: none;
 
-        &__item {
+        .testimonial {
             flex: 1;
             background: $color-white;
             box-sizing: border-box;
@@ -45,17 +45,15 @@
                 margin-right: 0;
             }
 
-            picture {
-                img {
-                    width: 140px;
-                    height: 140px;
-                    margin: 0 auto;
-                    margin-bottom: 10px;
-                    border-radius: 50%;
-                }
+            &__image {
+                width: 140px;
+                height: 140px;
+                margin: 0 auto;
+                margin-bottom: 10px;
+                border-radius: 50%;
             }
 
-            .quote {
+            &__quote {
                 font-family: $font-family-primary;
                 font-size: 0.9375rem;
                 line-height: 1.40625rem;
@@ -79,21 +77,21 @@
             }
 
             .author {
-                .author__name {
+                &__name {
                     color: $color-black;
                     font-family: $font-family-secondary;
                     font-size: 1.25rem;
                     font-weight: 400;
                 }
 
-                .author__company {
+                &__company {
                     color: $color-blue;
                     font-family: $font-family-primary;
                     font-size: 0.8125rem;
                     font-weight: 700;
                 }
 
-                .author__location {
+                &__location {
                     color: $color-black;
                     font-family: $font-family-primary;
                     font-size: 0.6875rem;
@@ -104,7 +102,7 @@
         }
     }
 
-    .cta {
+    &__cta {
         padding-top: 40px;
         text-align: center;
     }

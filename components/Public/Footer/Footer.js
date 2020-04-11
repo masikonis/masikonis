@@ -8,12 +8,12 @@ import styles from './Footer.module.scss';
 const Footer = () => (
     <footer className={styles.footer}>
         <div className="container">
-            <div className={styles.blocks}>
+            <div className={styles.footer__blocks}>
                 <div className={styles.copyright}>Copyright &copy; {getCurrentYear()} Nerijus Masikonis</div>
                 <div className={styles.links}>
-                    <ul className={styles.socialLinks}>
-                        <li className={classnames(styles.socialLink, styles.socialLink__linkedin)}><a href="https://lt.linkedin.com/in/nerijusmasikonis" target="_blank"><FontAwesomeIcon icon={faLinkedin} /></a></li>
+                    <ul className={styles.links__social}>
                         <li className={classnames(styles.socialLink, styles.socialLink__github)}><a href="https://github.com/masikonis" target="_blank"><FontAwesomeIcon icon={faGithub} /></a></li>
+                        <li className={classnames(styles.socialLink, styles.socialLink__linkedin)}><a href="https://lt.linkedin.com/in/nerijusmasikonis" target="_blank"><FontAwesomeIcon icon={faLinkedin} /></a></li>
                     </ul>
                 </div>
             </div>

@@ -10,39 +10,53 @@
     border-radius: .25rem;
     transition: all .2s ease-in-out;
 
-    &__type {
-        &--primary {
-            background: $color-blue;
-            color: $color-white;
-            border: 1px solid $color-white;
+    // Type
+    &--primary {
+        background: $color-blue;
+        color: $color-white;
+        border: 1px solid $color-white;
 
-            &:hover {
-                background: $color-white;
-                color: $color-black;
-                border: 1px solid $color-black;
-            }
-        }
-
-        &--secondary {
-            color: $color-blue;
+        &:hover {
             background: $color-white;
-
-            &:hover {
-                background: $color-black;
-                color: $color-white;
-            }
+            color: $color-black;
+            border: 1px solid $color-black;
         }
     }
 
-    &__size {
-        &--small {
-            font-size: 0.75rem;
-            padding: 10px 15px;
-        }
+    &--secondary {
+        color: $color-blue;
+        background: $color-white;
 
-        &--large {
-            font-size: 1rem;
-            padding: 21px 32px;
+        &:hover {
+            background: $color-black;
+            color: $color-white;
         }
+    }
+
+    &--tertiary {
+        color: $color-white;
+        background: transparent;
+        border: 2px solid $color-white;
+
+        &:hover {
+            background: $color-white;
+            color: $color-blue;
+        }
+    }
+
+    // Size
+    &--small {
+        font-size: 0.75rem;
+        padding: 10px 15px;
+    }
+
+    &--medium {
+        font-size: 0.9375rem;
+        padding: 11px 25px 12px;
+    }
+
+    &--large {
+        font-size: 1rem;
+        padding: 21px 32px;
     }
 }

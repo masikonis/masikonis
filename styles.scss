@@ -1,19 +1,19 @@
 @import 'sass/mixins';
 @import 'sass/public/variables';
 
-body, h2, h3, ul {
+body, h1, h2, h3, ul, li {
     margin: 0;
     padding: 0;
 }
+
 .container {
     position: relative;
     margin-left: auto;
     margin-right: auto;
     padding-right: 15px;
     padding-left: 15px;
-}
-@media (min-width: 1200px) {
-    .container {
+
+    @include desktop {
         width: 1140px;
         max-width: 100%;
     }

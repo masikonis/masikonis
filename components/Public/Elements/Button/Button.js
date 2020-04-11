@@ -11,7 +11,7 @@ class Button extends React.Component {
         } = this.props;
 
         return(
-            <a href={this.props.href} className={classnames(styles.button, styles[`button__type--${type}`], styles[`button__size--${size}`])} target={this.props.target}>
+            <a href={this.props.href} className={classnames(styles.button, styles[`button--${type}`], styles[`button--${size}`])} target={this.props.target}>
                 {this.props.children}
             </a>
         );

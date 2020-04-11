@@ -4,14 +4,43 @@
 .header {
     padding-top: 60px;
 
-    .logo {
-        display: none;
-        width: 385px;
-        height: 62px;
-        background: red;
+    &--cookie-bar-on {
+        padding-top: 100px;
     }
 
-    nav {
-        display: none;
+    &__wrapper {
+        display: flex;
+
+        .logo {
+            display: block;
+            flex: 1;
+    
+            img {
+                width: 385px;
+                height: auto;
+            }
+        }
+    
+        .menu {
+            flex: 1;
+            text-align: right;
+            padding-top: 8px;
+
+            .menu__item {
+                display: inline-block;
+                font-family: $font-family-primary;
+                color: $color-white;
+                font-weight: 400;
+                font-size: 0.9375rem;
+                text-decoration: none;
+                margin-right: 25px;
+
+                &:hover,
+                &--active {
+                    padding-bottom: 2px;
+                    border-bottom: 2px solid $color-white;
+                }
+            }
+        }
     }
 }
