@@ -8,7 +8,7 @@ const Header = () => {
     const router = useRouter();
 
     return(
-        <header className={classnames(styles.header, styles[`header--cookie-bar-on`])}>
+        <header className={classnames(styles.header)}>
             <div className="container">
                 <div className={styles[`header__wrapper`]}>
                     <Link href="/">

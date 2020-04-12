@@ -1,3 +1,4 @@
+import {CookiesProvider, Cookies} from 'react-cookie';
 import Head from 'next/head';
 import Fonts from '../components/Public/Fonts';
 import Drift from '../components/Public/Utilities/Drift';
@@ -8,6 +9,10 @@ import Hero from '../components/Public/Content/Hero/Hero';
 import Testimonials from '../components/Public/Content/Testimonials/Testimonials';
 
 class Index extends React.Component {
+    constructor(props) {
+        super(props);
+    }
+
     componentDidMount() {
         Fonts();
         Drift();
@@ -15,19 +20,31 @@ class Index extends React.Component {
 
     render() {
         return(
-            <div className="index-page">
-                <Head>
-                    <title>Full-Stack Web Developer – Nerijus Masikonis</title>
-                    <link rel="preconnect" href="https://i.vimeocdn.com" />
-                </Head>
-                <MetaTags />
-                <CookieBar />
-                <IndexLayout>
-                    <Hero />
-                    <Testimonials />
-                </IndexLayout>
-            </div>
+            <CookiesProvider>
+                <div className="indexPage">
+                    <Head>
+                        <title>Full-Stack Web Developer – Nerijus Masikonis</title>
+                        <link rel="preconnect" href="https://i.vimeocdn.com" />
+                    </Head>
+                    <MetaTags />
+                    <CookieBar gdprAccepted={this.props.gdprAccepted} />
+                    <IndexLayout>
+                        <Hero />
+                        <Testimonials />
+                    </IndexLayout>
+                </div>
+            </CookiesProvider>
         );
+    }
+}
+
+export async function getServerSideProps(context) {
+    const cookies = new Cookies(context.req.headers.cookie);
+
+    return {
+        props: {
+            gdprAccepted: (cookies.get('gdprAccepted')) ? cookies.get('gdprAccepted') : false
+        },
     }
 }
 

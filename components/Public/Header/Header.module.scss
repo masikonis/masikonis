@@ -2,11 +2,7 @@
 @import '../../../sass/public/variables';
 
 .header {
-    padding-top: 60px;
-
-    &--cookie-bar-on {
-        padding-top: 100px;
-    }
+    padding-top: 40px;
 
     &__wrapper {
         display: flex;

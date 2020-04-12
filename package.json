@@ -26,6 +26,7 @@
     "next-compose-plugins": "^2.2.0",
     "next-optimized-images": "^2.5.7",
     "react": "^16.13.1",
+    "react-cookie": "^4.0.3",
     "react-dom": "^16.13.1",
     "react-svgmt": "^1.1.11",
     "sass": "^1.26.3",
