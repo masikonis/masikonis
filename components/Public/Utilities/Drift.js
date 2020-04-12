@@ -25,7 +25,9 @@ const Drift = () => {
     script.innerText = scriptText;
     script.async = true;
 
-    document.head.appendChild(script);
+    setTimeout(function() {
+        document.head.appendChild(script);
+    }, 3000);
 };
 
 export default Drift;
