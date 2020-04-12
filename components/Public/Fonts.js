@@ -6,13 +6,15 @@ const Fonts = () => {
     link.href = 'https://fonts.googleapis.com/css?family=Noto+Serif:400|Noto+Sans:400,700&display=swap';
     link.rel = 'stylesheet';
 
-    document.head.appendChild(link);
+    setTimeout(function() {
+        document.head.appendChild(link);
 
-    const notoserif = new FontFaceObserver('Noto Serif');
-    notoserif.load().then(() => {});
+        const notoserif = new FontFaceObserver('Noto Serif');
+        notoserif.load().then(() => {});
 
-    const notosans = new FontFaceObserver('Noto Sans');
-    notosans.load().then(() => {});
+        const notosans = new FontFaceObserver('Noto Sans');
+        notosans.load().then(() => {});
+    }, 1000);
 };
 
 export default Fonts;
