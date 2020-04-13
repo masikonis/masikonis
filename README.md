@@ -14,3 +14,4 @@ Personal website and business management application.
 * [Sass](https://sass-lang.com/)
 * [Semantic UI](https://semantic-ui.com/)
 * [Jest](https://jestjs.io/)
+* [ZEIT Now](https://zeit.co/)
