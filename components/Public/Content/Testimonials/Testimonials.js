@@ -1,3 +1,4 @@
+import {InView} from 'react-intersection-observer';
 import {FontAwesomeIcon} from '@fortawesome/react-fontawesome';
 import {faQuoteLeft} from '@fortawesome/free-solid-svg-icons';
 import Vimeo from '@vimeo/player';
@@ -51,12 +52,16 @@ const listItems = listData.map((testimonial, key) => {
 });
 
 class Testimonials extends React.Component {
-    componentDidMount() {
-        const player = new Vimeo('video', {
-            id: 351382262,
-            responsive: true,
-            title: false
-        });
+    initVideoPlayer(inView = false) {
+        const video = document.getElementById('video');
+
+        if( ! video.hasAttribute('data-vimeo-initialized') && inView === true) {
+            const player = new Vimeo('video', {
+                id: 351382262,
+                responsive: true,
+                title: false
+            });
+        }
     }
 
     render() {
@@ -65,10 +70,12 @@ class Testimonials extends React.Component {
                 <div className="container">
                     <h2 className={styles.testimonials__heading}>What People Say About Me</h2>
                     <h3 className={styles.testimonials__subheading}>I have been lucky to work with fantastic people over the years. See what some of them have to say.</h3>
-                    <div id="video" className={styles.testimonials__video}></div>
+                    <InView as="div" onChange={(inView, entry) => this.initVideoPlayer(inView)}>
+                        <div id="video" className={styles.testimonials__video}></div>
+                    </InView>
                     <ul className={styles.testimonials__list}>{listItems}</ul>
                     <div className={styles.testimonials__cta}>
-                        <Button href="https://codeable.io/developers/nerijus-masikonis/#reviews" target="_blank">
+                        <Button href="https://codeable.io/developers/nerijus-masikonis/#reviews" target="_blank" rel="noreferrer">
                             Read More Testimonials
                         </Button>
                     </div>

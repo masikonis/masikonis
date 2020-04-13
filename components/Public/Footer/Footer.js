@@ -13,10 +13,10 @@ const Footer = () => (
                 <div className={styles.links}>
                     <ul className={styles.links__social}>
                         <li className={classnames(styles.socialLink, styles.socialLink__github)}>
-                            <a href="https://github.com/masikonis" target="_blank" aria-label="Visit my GitHub profile"><FontAwesomeIcon icon={faGithub} /></a>
+                            <a href="https://github.com/masikonis" target="_blank" aria-label="Visit my GitHub profile" rel="noreferrer"><FontAwesomeIcon icon={faGithub} /></a>
                         </li>
                         <li className={classnames(styles.socialLink, styles.socialLink__linkedin)}>
-                            <a href="https://lt.linkedin.com/in/nerijusmasikonis" target="_blank" aria-label="Visit my LinkedIn profile"><FontAwesomeIcon icon={faLinkedin} /></a>
+                            <a href="https://lt.linkedin.com/in/nerijusmasikonis" target="_blank" aria-label="Visit my LinkedIn profile" rel="noreferrer"><FontAwesomeIcon icon={faLinkedin} /></a>
                         </li>
                     </ul>
                 </div>
