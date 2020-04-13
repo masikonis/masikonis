@@ -24,6 +24,7 @@ class Index extends React.Component {
                 <div className="indexPage">
                     <Head>
                         <title>Full-Stack Web Developer – Nerijus Masikonis</title>
+                        <meta name="description" content="I'm your go-to developer for everything web-related. Most of the other developers have no expertise in digital marketing. I do have."></meta>
                         <link rel="preconnect" href="https://i.vimeocdn.com" />
                     </Head>
                     <MetaTags />
