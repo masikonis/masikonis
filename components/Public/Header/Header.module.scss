@@ -10,6 +10,10 @@
         .logo {
             display: block;
             flex: 1;
+
+            span {
+                display: none;
+            }
     
             img {
                 width: 385px;
