@@ -1,12 +1,12 @@
 import {CookiesProvider, Cookies} from 'react-cookie';
 import Head from 'next/head';
-import Fonts from '../components/Public/Fonts';
-import Drift from '../components/Public/Utilities/Drift';
-import MetaTags from '../components/Public/Utilities/MetaTags';
-import CookieBar from '../components/Public/Utilities/CookieBar/CookieBar';
-import IndexLayout from '../components/Public/Layouts/Index/Index';
-import Hero from '../components/Public/Content/Hero/Hero';
-import Testimonials from '../components/Public/Content/Testimonials/Testimonials';
+import Fonts from '../components/Fonts';
+import Drift from '../components/Utilities/Drift';
+import MetaTags from '../components/Utilities/MetaTags';
+import CookieBar from '../components/Utilities/CookieBar/CookieBar';
+import IndexLayout from '../components/Layouts/Index/Index';
+import Hero from '../components/Content/Hero/Hero';
+import Testimonials from '../components/Content/Testimonials/Testimonials';
 
 class Index extends React.Component {
     constructor(props) {

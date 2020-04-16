@@ -1,48 +1,81 @@
-@import '../../../../sass/mixins';
-@import '../../../../sass/public/variables';
+@import '../../../sass/mixins';
+@import '../../../sass/variables';
 
 .testimonials {
     background: $color-lightgrey;
-    padding-top: 65px;
-    padding-bottom: 65px;
+    padding-top: 35px;
+    padding-bottom: 40px;
+
+    @include desktop {
+        padding-top: 65px;
+        padding-bottom: 65px;
+    }
 
     &__heading {
         font-family: $font-family-secondary;
         font-weight: 400;
-        font-size: 2.25rem;
+        font-size: 1.75rem;
         text-align: center;
+
+        @include desktop {
+            font-size: 2.25rem;
+        }
     }
 
     &__subheading {
         font-family: $font-family-primary;
         font-weight: 400;
-        font-size: 1rem;
+        font-size: 0.95rem;
         text-align: center;
         margin-top: 15px;
+
+        @include desktop {
+            font-size: 1rem;
+        }
     }
 
     &__video {
-        max-width: 80%;
         margin: 0 auto;
-        margin-top: 50px;
-        margin-bottom: 55px;
+        margin-top: 35px;
+        margin-bottom: 45px;
+
+        @include desktop {
+            max-width: 80%;
+            margin-top: 50px;
+            margin-bottom: 55px;
+        }
     }
 
     &__list {
         display: flex;
+        flex-direction: column;
         list-style-type: none;
+
+        @include desktop {
+            flex-direction: row;
+        }
 
         .testimonial {
             flex: 1;
             background: $color-white;
             box-sizing: border-box;
-            padding: 35px;
+            padding: 20px;
             text-align: center;
             border: 1px solid $color-grey;
-            margin-right: 30px;
+            margin-bottom: 30px;
+
+            @include desktop {
+                padding: 35px;
+                margin-bottom: 0;
+                margin-right: 30px;
+            }
 
             &:last-child {
-                margin-right: 0;
+                margin-bottom: 0;
+
+                @include desktop {
+                    margin-right: 0;
+                }
             }
 
             &__image {
@@ -103,7 +136,11 @@
     }
 
     &__cta {
-        padding-top: 40px;
+        padding-top: 30px;
         text-align: center;
+
+        @include desktop {
+            padding-top: 40px;
+        }
     }
 }
