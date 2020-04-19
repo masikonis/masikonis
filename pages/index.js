@@ -1,5 +1,6 @@
 import {CookiesProvider, Cookies} from 'react-cookie';
 import Head from 'next/head';
+import Analytics from '../components/Utilities/Analytics';
 import Fonts from '../components/Fonts';
 import Drift from '../components/Utilities/Drift';
 import MetaTags from '../components/Utilities/MetaTags';
@@ -14,6 +15,7 @@ class Index extends React.Component {
     }
 
     componentDidMount() {
+        Analytics();
         Fonts();
         Drift();
     }

@@ -28,6 +28,7 @@
     "react": "^16.13.1",
     "react-cookie": "^4.0.3",
     "react-dom": "^16.13.1",
+    "react-ga": "^2.7.0",
     "react-intersection-observer": "^8.26.1",
     "react-svgmt": "^1.1.11",
     "sass": "^1.26.3",
