@@ -10,4 +10,4 @@ Personal website of Nerijus Masikonis, the full-stack web developer.
 * [React](https://reactjs.org/)
 * [Sass](https://sass-lang.com/)
 * [Jest](https://jestjs.io/)
-* [ZEIT Now](https://zeit.co/)
+* [Vercel](https://vercel.com/)
