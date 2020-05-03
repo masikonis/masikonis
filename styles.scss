@@ -13,7 +13,7 @@ body, h1, h2, h3, ul, li {
     padding-right: 15px;
     padding-left: 15px;
 
-    @include desktop {
+    @include extra-large {
         width: 1140px;
         max-width: 100%;
     }

@@ -1,5 +1,23 @@
 // Media queries
-@mixin desktop {
+@mixin small {
+    @media (min-width: 480px) {
+        @content;
+    }
+}
+
+@mixin medium {
+    @media (min-width: 768px) {
+        @content;
+    }
+}
+
+@mixin large {
+    @media (min-width: 992px) {
+        @content;
+    }
+}
+
+@mixin extra-large {
     @media (min-width: 1200px) {
         @content;
     }

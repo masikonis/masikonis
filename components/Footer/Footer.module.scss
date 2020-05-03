@@ -7,7 +7,7 @@
     padding-bottom: 15px;
     border-top: 1px solid $color-grey;
 
-    @include desktop {
+    @include large {
         padding-bottom: 30px;
     }
 
@@ -16,9 +16,13 @@
         flex-wrap: wrap;
 
         .copyright {
-            flex: 1.5;
+            flex: 2;
             font-family: $font-family-primary;
-            font-size: 0.75rem;
+            font-size: 0.65rem;
+
+            @include large {
+                font-size: 0.75rem;
+            }
         }
     
         .links {

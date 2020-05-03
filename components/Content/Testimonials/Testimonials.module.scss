@@ -6,7 +6,7 @@
     padding-top: 35px;
     padding-bottom: 40px;
 
-    @include desktop {
+    @include extra-large {
         padding-top: 65px;
         padding-bottom: 65px;
     }
@@ -14,10 +14,10 @@
     &__heading {
         font-family: $font-family-secondary;
         font-weight: 400;
-        font-size: 1.75rem;
+        font-size: 1.4rem;
         text-align: center;
 
-        @include desktop {
+        @include large {
             font-size: 2.25rem;
         }
     }
@@ -25,11 +25,11 @@
     &__subheading {
         font-family: $font-family-primary;
         font-weight: 400;
-        font-size: 0.95rem;
+        font-size: 0.75rem;
         text-align: center;
         margin-top: 15px;
 
-        @include desktop {
+        @include large {
             font-size: 1rem;
         }
     }
@@ -39,7 +39,7 @@
         margin-top: 35px;
         margin-bottom: 45px;
 
-        @include desktop {
+        @include medium {
             max-width: 80%;
             margin-top: 50px;
             margin-bottom: 55px;
@@ -51,7 +51,7 @@
         flex-direction: column;
         list-style-type: none;
 
-        @include desktop {
+        @include large {
             flex-direction: row;
         }
 
@@ -64,7 +64,7 @@
             border: 1px solid $color-grey;
             margin-bottom: 30px;
 
-            @include desktop {
+            @include large {
                 padding: 35px;
                 margin-bottom: 0;
                 margin-right: 30px;
@@ -73,7 +73,7 @@
             &:last-child {
                 margin-bottom: 0;
 
-                @include desktop {
+                @include large {
                     margin-right: 0;
                 }
             }
@@ -139,7 +139,7 @@
         padding-top: 30px;
         text-align: center;
 
-        @include desktop {
+        @include large {
             padding-top: 40px;
         }
     }

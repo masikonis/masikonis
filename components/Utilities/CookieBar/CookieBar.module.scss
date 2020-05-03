@@ -13,10 +13,18 @@
     transition: all 0.25s;
 
     &__text {
+        display: block;
         font-family: $font-family-primary;
         font-weight: 400;
-        font-size: 1rem;
+        font-size: 0.75rem;
         color: $color-blue;
-        padding-right: 20px;
+        padding-bottom: 7px;
+
+        @include large {
+            display: inline;
+            font-size: 1rem;
+            padding-right: 20px;
+            padding-bottom: 0;
+        }
     }
 }
