@@ -56,6 +56,16 @@
         padding: 11px 25px 12px;
     }
 
+    &--small-to-medium {
+        font-size: 0.75rem;
+        padding: 10px 15px;
+
+        @include medium {
+            font-size: 0.9375rem;
+            padding: 11px 25px 12px;
+        }
+    }
+
     &--large {
         font-size: 1rem;
         padding: 21px 32px;

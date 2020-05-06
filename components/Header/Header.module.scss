@@ -2,8 +2,12 @@
 @import '../../sass/variables';
 
 .header {
-    display: none;
-    padding-top: 40px;
+    display: block;
+    padding-top: 30px;
+
+    @include large {
+        padding-top: 40px;
+    }
 
     &__wrapper {
         display: flex;
@@ -16,14 +20,31 @@
                 display: none;
             }
     
-            img {
-                width: 385px;
-                height: 65px;
+            .image {
+                &--big {
+                    display: none;
+                    width: 385px;
+                    height: 65px;
+
+                    @include large {
+                        display: block;
+                    }
+                }
+
+                &--small {
+                    display: block;
+                    width: 98px;
+
+                    @include large {
+                        display: none;
+                    }
+                }
             }
         }
     
         .menu {
-            flex: 1;
+            display: block;
+            flex: 1.5;
             text-align: right;
             padding-top: 8px;
 
