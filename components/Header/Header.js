@@ -4,7 +4,7 @@ import classnames from 'classnames';
 import Button from '../Elements/Button/Button';
 import styles from './Header.module.scss';
 
-const Header = () => {
+const Header = props => {
     const router = useRouter();
 
     return(
@@ -24,7 +24,7 @@ const Header = () => {
                                 About
                             </a>
                         </Link>
-                        <Button href="#" type="tertiary" size="small-to-medium">Free Trial</Button>
+                        <Button href="#" type="tertiary" size="small-to-medium" onClick={props.showFreeTrial}>Free Trial</Button>
                     </nav>
                 </div>
             </div>

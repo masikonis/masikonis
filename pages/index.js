@@ -8,10 +8,30 @@ import CookieBar from '../components/Utilities/CookieBar/CookieBar';
 import IndexLayout from '../components/Layouts/Index/Index';
 import Hero from '../components/Content/Hero/Hero';
 import Testimonials from '../components/Content/Testimonials/Testimonials';
+import FreeTrial from '../components/Utilities/FreeTrial/FreeTrial';
 
 class Index extends React.Component {
     constructor(props) {
         super(props);
+
+        this.state = {
+            isFreeTrialShown: false
+        };
+
+        this.showFreeTrial = this.showFreeTrial.bind(this);
+        this.hideFreeTrial = this.hideFreeTrial.bind(this);
+    }
+
+    showFreeTrial() {
+        this.setState({
+            isFreeTrialShown: true
+        });
+    }
+
+    hideFreeTrial() {
+        this.setState({
+            isFreeTrialShown: false
+        });
     }
 
     componentDidMount() {
@@ -31,10 +51,11 @@ class Index extends React.Component {
                     </Head>
                     <MetaTags />
                     <CookieBar gdprAccepted={this.props.gdprAccepted} />
-                    <IndexLayout>
+                    <IndexLayout showFreeTrial={this.showFreeTrial}>
                         <Hero />
                         <Testimonials />
                     </IndexLayout>
+                    <FreeTrial isFreeTrialShown={this.state.isFreeTrialShown} hideFreeTrial={this.hideFreeTrial} />
                 </div>
             </CookiesProvider>
         );
