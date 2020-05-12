@@ -1,14 +1,14 @@
 import {CookiesProvider, Cookies} from 'react-cookie';
 import Head from 'next/head';
-import Analytics from '../components/Utilities/Analytics';
-import Fonts from '../components/Fonts';
-import Drift from '../components/Utilities/Drift';
-import MetaTags from '../components/Utilities/MetaTags';
-import CookieBar from '../components/Utilities/CookieBar/CookieBar';
-import IndexLayout from '../components/Layouts/Index/Index';
-import Hero from '../components/Content/Hero/Hero';
-import Testimonials from '../components/Content/Testimonials/Testimonials';
-import FreeTrial from '../components/Utilities/FreeTrial/FreeTrial';
+import Analytics from 'components/Utilities/Analytics';
+import Fonts from 'components/Fonts';
+import Drift from 'components/Utilities/Drift';
+import MetaTags from 'components/Utilities/MetaTags';
+import CookieBar from 'components/Utilities/CookieBar/CookieBar';
+import IndexLayout from 'components/Layouts/Index/Index';
+import Hero from 'components/Content/Hero/Hero';
+import Testimonials from 'components/Content/Testimonials/Testimonials';
+import FreeTrial from 'components/Utilities/FreeTrial/FreeTrial';
 
 class Index extends React.Component {
     constructor(props) {
@@ -22,7 +22,9 @@ class Index extends React.Component {
         this.hideFreeTrial = this.hideFreeTrial.bind(this);
     }
 
-    showFreeTrial() {
+    showFreeTrial(e) {
+        e.preventDefault();
+
         this.setState({
             isFreeTrialShown: true
         });

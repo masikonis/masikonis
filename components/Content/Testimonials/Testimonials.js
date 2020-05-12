@@ -2,7 +2,7 @@ import {InView} from 'react-intersection-observer';
 import {FontAwesomeIcon} from '@fortawesome/react-fontawesome';
 import {faQuoteLeft} from '@fortawesome/free-solid-svg-icons';
 import Vimeo from '@vimeo/player';
-import Button from '../../Elements/Button/Button';
+import Button from 'components/Elements/Button/Button';
 import styles from './Testimonials.module.scss';
 
 const listData = [

@@ -1,6 +1,6 @@
 import {instanceOf} from 'prop-types';
 import {withCookies, Cookies} from 'react-cookie';
-import Button from '../../Elements/Button/Button';
+import Button from 'components/Elements/Button/Button';
 import styles from './CookieBar.module.scss';
 
 class CookieBar extends React.Component {

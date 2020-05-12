@@ -1,7 +1,7 @@
 import Link from 'next/link';
 import {useRouter} from 'next/router';
 import classnames from 'classnames';
-import Button from '../Elements/Button/Button';
+import Button from 'components/Elements/Button/Button';
 import styles from './Header.module.scss';
 
 const Header = props => {

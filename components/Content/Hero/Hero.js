@@ -1,5 +1,5 @@
 import {SvgLoader, SvgProxy, TransformMotion} from 'react-svgmt';
-import Button from '../../Elements/Button/Button';
+import Button from 'components/Elements/Button/Button';
 import styles from './Hero.module.scss';
 
 const Hero = () => (
