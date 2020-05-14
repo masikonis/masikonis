@@ -35,6 +35,8 @@
     }
 
     &__video {
+        display: block;
+        min-width: 80%;
         margin: 0 auto;
         margin-top: 35px;
         margin-bottom: 45px;
