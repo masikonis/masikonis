@@ -53,12 +53,9 @@ const listItems = listData.map((testimonial, key) => {
 
 class Testimonials extends React.Component {
     initVideoPlayer(inView = false) {
-        let videoThumbnail = document.getElementById('videoThumbnail');
         let video = document.getElementById('video');
 
         if( ! video.hasAttribute('data-vimeo-initialized') && inView === true) {
-            videoThumbnail.style.display = 'none';
-
             const player = new Vimeo('video', {
                 id: 351382262,
                 responsive: true,
@@ -68,15 +65,18 @@ class Testimonials extends React.Component {
     }
 
     render() {
+        const lowQualityThumb = require('./images/video-thumb.jpg?lqip');
+
         return(
             <div className={styles.testimonials}>
                 <div className="container">
                     <h2 className={styles.testimonials__heading}>What People Say About Me</h2>
                     <h3 className={styles.testimonials__subheading}>I have been lucky to work with fantastic people over the years. See what some of them have to say.</h3>
-                    <img id="videoThumbnail" src={require('./images/video-thumb.jpg?lqip')} alt="video thumbnail" className={styles.testimonials__video} loading="lazy" />
-                    <InView as="div" onChange={(inView, entry) => this.initVideoPlayer(inView)}>
-                        <div id="video" className={styles.testimonials__video}></div>
-                    </InView>
+                    <div className={styles.testimonials__video} style={ { backgroundImage: `url(${lowQualityThumb})` } }>
+                        <InView as="div" onChange={(inView, entry) => this.initVideoPlayer(inView)}>
+                            <div id="video"></div>
+                        </InView>
+                    </div>
                     <ul className={styles.testimonials__list}>{listItems}</ul>
                     <div className={styles.testimonials__cta}>
                         <Button href="https://codeable.io/developers/nerijus-masikonis/#reviews" target="_blank" rel="noopener">

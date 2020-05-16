@@ -37,14 +37,21 @@
     &__video {
         display: block;
         min-width: 80%;
+        min-height: 51vw;
         margin: 0 auto;
         margin-top: 35px;
         margin-bottom: 45px;
+        background-size: cover;
 
         @include medium {
             max-width: 80%;
             margin-top: 50px;
             margin-bottom: 55px;
+            min-height: 43vw;
+        }
+
+        @include extra-large {
+            min-height: 513px;
         }
     }
 
