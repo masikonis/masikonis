@@ -51,8 +51,8 @@ const listItems = listData.map((testimonial, key) => {
     );
 });
 
-class Testimonials extends React.Component {
-    initVideoPlayer(inView = false) {
+const Testimonials = () => {
+    function initVideoPlayer(inView = false) {
         let video = document.getElementById('video');
 
         if( ! video.hasAttribute('data-vimeo-initialized') && inView === true) {
@@ -64,29 +64,27 @@ class Testimonials extends React.Component {
         }
     }
 
-    render() {
-        const lowQualityThumb = require('./images/video-thumb.jpg?lqip');
+    const lowQualityThumb = require('./images/video-thumb.jpg?lqip');
 
-        return(
-            <div className={styles.testimonials}>
-                <div className="container">
-                    <h2 className={styles.testimonials__heading}>What People Say About Me</h2>
-                    <h3 className={styles.testimonials__subheading}>I have been lucky to work with fantastic people over the years. See what some of them have to say.</h3>
-                    <div className={styles.testimonials__video} style={ { backgroundImage: `url(${lowQualityThumb})` } }>
-                        <InView as="div" onChange={(inView, entry) => this.initVideoPlayer(inView)}>
-                            <div id="video"></div>
-                        </InView>
-                    </div>
-                    <ul className={styles.testimonials__list}>{listItems}</ul>
-                    <div className={styles.testimonials__cta}>
-                        <Button href="https://codeable.io/developers/nerijus-masikonis/#reviews" target="_blank" rel="noopener">
-                            Read More Testimonials
-                        </Button>
-                    </div>
+    return(
+        <div className={styles.testimonials}>
+            <div className="container">
+                <h2 className={styles.testimonials__heading}>What People Say About Me</h2>
+                <h3 className={styles.testimonials__subheading}>I have been lucky to work with fantastic people over the years. See what some of them have to say.</h3>
+                <div className={styles.testimonials__video} style={ { backgroundImage: `url(${lowQualityThumb})` } }>
+                    <InView as="div" onChange={(inView, entry) => initVideoPlayer(inView)}>
+                        <div id="video"></div>
+                    </InView>
+                </div>
+                <ul className={styles.testimonials__list}>{listItems}</ul>
+                <div className={styles.testimonials__cta}>
+                    <Button href="https://codeable.io/developers/nerijus-masikonis/#reviews" target="_blank" rel="noopener">
+                        Read More Testimonials
+                    </Button>
                 </div>
             </div>
-        );
-    }
-}
+        </div>
+    );
+};
 
 export default Testimonials;

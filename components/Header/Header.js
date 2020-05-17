@@ -4,7 +4,7 @@ import classnames from 'classnames';
 import Button from 'components/Elements/Button/Button';
 import styles from './Header.module.scss';
 
-const Header = props => {
+const Header = (props) => {
     const router = useRouter();
 
     return(
