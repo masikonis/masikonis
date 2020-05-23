@@ -1,35 +1,35 @@
-@import 'sass/mixins';
-@import 'sass/variables';
+@use 'sass/mixins';
+@use 'sass/variables';
 
 .testimonials {
-    background: $color-lightgrey;
+    background: variables.$color-lightgrey;
     padding-top: 35px;
     padding-bottom: 40px;
 
-    @include extra-large {
+    @include mixins.extra-large {
         padding-top: 65px;
         padding-bottom: 65px;
     }
 
     &__heading {
-        font-family: $font-family-secondary;
+        font-family: variables.$font-family-secondary;
         font-weight: 400;
         font-size: 1.4rem;
         text-align: center;
 
-        @include large {
+        @include mixins.large {
             font-size: 2.25rem;
         }
     }
 
     &__subheading {
-        font-family: $font-family-primary;
+        font-family: variables.$font-family-primary;
         font-weight: 400;
         font-size: 0.75rem;
         text-align: center;
         margin-top: 15px;
 
-        @include large {
+        @include mixins.large {
             font-size: 1rem;
         }
     }
@@ -43,14 +43,14 @@
         margin-bottom: 45px;
         background-size: cover;
 
-        @include medium {
+        @include mixins.medium {
             max-width: 80%;
             margin-top: 50px;
             margin-bottom: 55px;
             min-height: 43vw;
         }
 
-        @include extra-large {
+        @include mixins.extra-large {
             min-height: 513px;
         }
     }
@@ -60,20 +60,20 @@
         flex-direction: column;
         list-style-type: none;
 
-        @include large {
+        @include mixins.large {
             flex-direction: row;
         }
 
         .testimonial {
             flex: 1;
-            background: $color-white;
+            background: variables.$color-white;
             box-sizing: border-box;
             padding: 20px;
             text-align: center;
-            border: 1px solid $color-grey;
+            border: 1px solid variables.$color-grey;
             margin-bottom: 30px;
 
-            @include large {
+            @include mixins.large {
                 padding: 35px;
                 margin-bottom: 0;
                 margin-right: 30px;
@@ -82,7 +82,7 @@
             &:last-child {
                 margin-bottom: 0;
 
-                @include large {
+                @include mixins.large {
                     margin-right: 0;
                 }
             }
@@ -96,14 +96,14 @@
             }
 
             &__quote {
-                font-family: $font-family-primary;
+                font-family: variables.$font-family-primary;
                 font-size: 0.9375rem;
                 line-height: 1.40625rem;
                 font-weight: 400;
                 margin-bottom: 20px;
 
                 svg {
-                    color: $color-blue;
+                    color: variables.$color-blue;
                 }
             }
 
@@ -111,7 +111,7 @@
                 display: block;
                 width: 27px;
                 height: 2px;
-                background: $color-blue;
+                background: variables.$color-blue;
                 margin: 0 auto;
                 margin-top: 10px;
                 margin-bottom: 20px;
@@ -120,22 +120,22 @@
 
             .author {
                 &__name {
-                    color: $color-black;
-                    font-family: $font-family-secondary;
+                    color: variables.$color-black;
+                    font-family: variables.$font-family-secondary;
                     font-size: 1.25rem;
                     font-weight: 400;
                 }
 
                 &__company {
-                    color: $color-blue;
-                    font-family: $font-family-primary;
+                    color: variables.$color-blue;
+                    font-family: variables.$font-family-primary;
                     font-size: 0.8125rem;
                     font-weight: 700;
                 }
 
                 &__location {
-                    color: $color-black;
-                    font-family: $font-family-primary;
+                    color: variables.$color-black;
+                    font-family: variables.$font-family-primary;
                     font-size: 0.6875rem;
                     font-weight: 400;
                     text-transform: uppercase;
@@ -148,7 +148,7 @@
         padding-top: 30px;
         text-align: center;
 
-        @include large {
+        @include mixins.large {
             padding-top: 40px;
         }
     }

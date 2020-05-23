@@ -1,9 +1,9 @@
-@import 'sass/mixins';
-@import 'sass/variables';
+@use 'sass/mixins';
+@use 'sass/variables';
 
 .button {
     display: inline-block;
-    font-family: $font-family-primary;
+    font-family: variables.$font-family-primary;
     font-weight: 700;
     text-transform: uppercase;
     text-decoration: none;
@@ -13,35 +13,35 @@
 
     // Type
     &--primary {
-        background: $color-blue;
-        color: $color-white;
-        border: 1px solid $color-white;
+        background: variables.$color-blue;
+        color: variables.$color-white;
+        border: 1px solid variables.$color-white;
 
         &:hover {
-            background: $color-white;
-            color: $color-black;
-            border: 1px solid $color-black;
+            background: variables.$color-white;
+            color: variables.$color-black;
+            border: 1px solid variables.$color-black;
         }
     }
 
     &--secondary {
-        color: $color-blue;
-        background: $color-white;
+        color: variables.$color-blue;
+        background: variables.$color-white;
 
         &:hover {
-            background: $color-black;
-            color: $color-white;
+            background: variables.$color-black;
+            color: variables.$color-white;
         }
     }
 
     &--tertiary {
-        color: $color-white;
+        color: variables.$color-white;
         background: transparent;
-        border: 2px solid $color-white;
+        border: 2px solid variables.$color-white;
 
         &:hover {
-            background: $color-white;
-            color: $color-blue;
+            background: variables.$color-white;
+            color: variables.$color-blue;
         }
     }
 
@@ -60,7 +60,7 @@
         font-size: 0.75rem;
         padding: 10px 15px;
 
-        @include medium {
+        @include mixins.medium {
             font-size: 0.9375rem;
             padding: 11px 25px 12px;
         }

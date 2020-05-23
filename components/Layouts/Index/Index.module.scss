@@ -1,8 +1,8 @@
-@import 'sass/mixins';
-@import 'sass/variables';
+@use 'sass/mixins';
+@use 'sass/variables';
 
 .indexLayout {
-    background: $color-blue;
-    font-family: $font-family-primary;
-    color: $color-black;
+    background: variables.$color-blue;
+    font-family: variables.$font-family-primary;
+    color: variables.$color-black;
 }

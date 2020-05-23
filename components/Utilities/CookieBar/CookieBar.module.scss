@@ -1,5 +1,5 @@
-@import 'sass/mixins';
-@import 'sass/variables';
+@use 'sass/mixins';
+@use 'sass/variables';
 
 .cookieBar {
     padding: 10px;
@@ -14,13 +14,13 @@
 
     &__text {
         display: block;
-        font-family: $font-family-primary;
+        font-family: variables.$font-family-primary;
         font-weight: 400;
         font-size: 0.75rem;
-        color: $color-blue;
+        color: variables.$color-blue;
         padding-bottom: 7px;
 
-        @include large {
+        @include mixins.large {
             display: inline;
             font-size: 1rem;
             padding-right: 20px;

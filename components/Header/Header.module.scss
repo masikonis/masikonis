@@ -1,11 +1,11 @@
-@import 'sass/mixins';
-@import 'sass/variables';
+@use 'sass/mixins';
+@use 'sass/variables';
 
 .header {
     display: block;
     padding-top: 30px;
 
-    @include large {
+    @include mixins.large {
         padding-top: 40px;
     }
 
@@ -26,7 +26,7 @@
                     width: 385px;
                     height: 65px;
 
-                    @include large {
+                    @include mixins.large {
                         display: block;
                     }
                 }
@@ -35,7 +35,7 @@
                     display: block;
                     width: 98px;
 
-                    @include large {
+                    @include mixins.large {
                         display: none;
                     }
                 }
@@ -50,8 +50,8 @@
 
             .menu__item {
                 display: inline-block;
-                font-family: $font-family-primary;
-                color: $color-white;
+                font-family: variables.$font-family-primary;
+                color: variables.$color-white;
                 font-weight: 400;
                 font-size: 0.9375rem;
                 text-decoration: none;
@@ -60,7 +60,7 @@
                 &:hover,
                 &--active {
                     padding-bottom: 2px;
-                    border-bottom: 2px solid $color-white;
+                    border-bottom: 2px solid variables.$color-white;
                 }
             }
         }

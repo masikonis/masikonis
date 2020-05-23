@@ -1,13 +1,13 @@
-@import 'sass/mixins';
-@import 'sass/variables';
+@use 'sass/mixins';
+@use 'sass/variables';
 
 .footer {
-    background: $color-white;
+    background: variables.$color-white;
     padding-top: 30px;
     padding-bottom: 15px;
-    border-top: 1px solid $color-grey;
+    border-top: 1px solid variables.$color-grey;
 
-    @include large {
+    @include mixins.large {
         padding-bottom: 30px;
     }
 
@@ -17,10 +17,10 @@
 
         .copyright {
             flex: 2;
-            font-family: $font-family-primary;
+            font-family: variables.$font-family-primary;
             font-size: 0.65rem;
 
-            @include large {
+            @include mixins.large {
                 font-size: 0.75rem;
             }
         }
@@ -44,10 +44,10 @@
     
                     a {
                         font-size: 1.5rem;
-                        color: $color-black;
+                        color: variables.$color-black;
     
                         &:hover {
-                            color: $color-blue;
+                            color: variables.$color-blue;
                         }
                     }
                 }

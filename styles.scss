@@ -1,5 +1,5 @@
-@import 'sass/mixins';
-@import 'sass/variables';
+@use 'sass/mixins';
+@use 'sass/variables';
 
 body, h1, h2, h3, ul, li {
     margin: 0;
@@ -13,7 +13,7 @@ body, h1, h2, h3, ul, li {
     padding-right: 15px;
     padding-left: 15px;
 
-    @include extra-large {
+    @include mixins.extra-large {
         width: 1140px;
         max-width: 100%;
     }
