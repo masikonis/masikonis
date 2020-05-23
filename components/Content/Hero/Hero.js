@@ -1,4 +1,4 @@
-import {SvgLoader, SvgProxy, TransformMotion} from 'react-svgmt';
+import {SvgLoader, TransformMotion} from 'react-svgmt';
 import Button from 'components/Elements/Button/Button';
 import styles from './Hero.module.scss';
 
