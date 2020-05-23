@@ -76,6 +76,14 @@ const Testimonials = () => {
                         <div id="video"></div>
                     </InView>
                 </div>
+                <div className={styles.testimonials__videoauthor}>
+                    <hr />
+                    <div className={styles.author}>
+                        <div className={styles.author__name}>Eric Siu</div>
+                        <div className={styles.author__company}>CEO, Single Grain</div>
+                        <div className={styles.author__location}>Los Angeles, USA</div>
+                    </div>
+                </div>
                 <ul className={styles.testimonials__list}>{listItems}</ul>
                 <div className={styles.testimonials__cta}>
                     <Button href="https://codeable.io/developers/nerijus-masikonis/#reviews" target="_blank" rel="noopener">

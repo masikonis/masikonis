@@ -19,11 +19,11 @@ const Header = (props) => {
                         </a>
                     </Link>
                     <nav className={styles.menu}>
-                        <Link href="/">
+                        {/*<Link href="/">
                             <a className={classnames(styles.menu__item, (router.pathname === '/about' ? styles[`menu__item--active`] : styles[`menu__item--inactive`]))}>
                                 About
                             </a>
-                        </Link>
+                        </Link>*/}
                         <Button href="#" type="tertiary" size="small-to-medium" onClick={props.showFreeTrial}>Free Trial</Button>
                     </nav>
                 </div>

@@ -2,7 +2,7 @@ import {SvgLoader, TransformMotion} from 'react-svgmt';
 import Button from 'components/Elements/Button/Button';
 import styles from './Hero.module.scss';
 
-const Hero = () => (
+const Hero = (props) => (
     <div className={styles.hero}>
         <div className="container">
             <div className={styles.hero__bg}>
@@ -29,7 +29,10 @@ const Hero = () => (
             <h1 className={styles.hero__heading}>I'm Your Go-To Developer for<span> </span>Everything Web-Related</h1>
             <h2 className={styles.hero__subheading}>Most of the other developers have no expertise in digital marketing. I do have.</h2>
             <div className={styles.hero__cta}>
-                <Button href="#" type="secondary">Get to know me better</Button>
+                <Button href="#" type="secondary" onClick={props.showFreeTrial}>
+                    {/*Get to know me better*/}
+                    Test me on a real project
+                </Button>
             </div>
         </div>
     </div>

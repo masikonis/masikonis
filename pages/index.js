@@ -41,7 +41,7 @@ const Index = (props) => {
                 <MetaTags />
                 <CookieBar gdprAccepted={props.gdprAccepted} />
                 <IndexLayout showFreeTrial={showFreeTrial}>
-                    <Hero />
+                    <Hero showFreeTrial={showFreeTrial} />
                     <Testimonials />
                 </IndexLayout>
                 <FreeTrial isFreeTrialShown={isFreeTrialShown} hideFreeTrial={hideFreeTrial} />
