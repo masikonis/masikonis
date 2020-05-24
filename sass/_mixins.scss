@@ -1,3 +1,6 @@
+@use "sass:color";
+@use 'variables';
+
 // Media queries
 @mixin small {
     @media (min-width: 480px) {
@@ -23,10 +26,48 @@
     }
 }
 
-// Styling snippets
+// Styling features
 @mixin border-radius($radius) {
     -webkit-border-radius: $radius;
     -moz-border-radius: $radius;
     -ms-border-radius: $radius;
         border-radius: $radius;
+}
+
+// Reusable elements
+@mixin author() {
+    hr {
+        display: block;
+        width: 27px;
+        height: 2px;
+        background: variables.$color-blue;
+        margin: 0 auto;
+        margin-top: 10px;
+        margin-bottom: 20px;
+        border: none;
+    }
+
+    .author {
+        &__name {
+            color: variables.$color-black;
+            font-family: variables.$font-family-secondary;
+            font-size: 1.25rem;
+            font-weight: 400;
+        }
+
+        &__company {
+            color: color.adjust(variables.$color-blue, $lightness: -2%);
+            font-family: variables.$font-family-primary;
+            font-size: 0.8125rem;
+            font-weight: 700;
+        }
+
+        &__location {
+            color: variables.$color-black;
+            font-family: variables.$font-family-primary;
+            font-size: 0.6875rem;
+            font-weight: 400;
+            text-transform: uppercase;
+        }
+    }
 }
