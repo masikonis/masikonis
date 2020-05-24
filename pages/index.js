@@ -50,7 +50,7 @@ const Index = (props) => {
     );
 };
 
-export async function getServerSideProps(context) {
+/*export async function getServerSideProps(context) {
     const cookies = new Cookies(context.req.headers.cookie);
 
     return {
@@ -58,6 +58,6 @@ export async function getServerSideProps(context) {
             gdprAccepted: (cookies.get('gdprAccepted')) ? cookies.get('gdprAccepted') : false
         },
     }
-}
+}*/
 
 export default Index;
