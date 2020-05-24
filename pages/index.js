@@ -5,7 +5,7 @@ import Analytics from 'components/Utilities/Analytics';
 import Fonts from 'components/Fonts';
 import Drift from 'components/Utilities/Drift';
 import MetaTags from 'components/Utilities/MetaTags';
-import CookieBar from 'components/Utilities/CookieBar/CookieBar';
+//import CookieBar from 'components/Utilities/CookieBar/CookieBar';
 import IndexLayout from 'components/Layouts/Index/Index';
 import Hero from 'components/Content/Hero/Hero';
 import Testimonials from 'components/Content/Testimonials/Testimonials';
@@ -39,7 +39,7 @@ const Index = (props) => {
                     <link rel="preconnect" href="https://i.vimeocdn.com" />
                 </Head>
                 <MetaTags />
-                <CookieBar gdprAccepted={props.gdprAccepted} />
+                {/*<CookieBar gdprAccepted={props.gdprAccepted} />*/}
                 <IndexLayout showFreeTrial={showFreeTrial}>
                     <Hero showFreeTrial={showFreeTrial} />
                     <Testimonials />
