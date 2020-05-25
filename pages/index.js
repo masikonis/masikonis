@@ -1,5 +1,4 @@
 import {useState, useEffect} from 'react';
-import {CookiesProvider, Cookies} from 'react-cookie';
 import Head from 'next/head';
 import Analytics from 'components/Utilities/Analytics';
 import Fonts from 'components/Fonts';
@@ -31,33 +30,20 @@ const Index = (props) => {
     }
 
     return(
-        <CookiesProvider>
-            <div className="indexPage">
-                <Head>
-                    <title>Full-Stack Web Developer – Nerijus Masikonis</title>
-                    <meta name="description" content="I'm your go-to developer for everything web-related. Most of the other developers have no expertise in digital marketing. I do have."></meta>
-                    <link rel="preconnect" href="https://i.vimeocdn.com" />
-                </Head>
-                <MetaTags />
-                <CookieBar gdprAccepted={props.gdprAccepted} />
-                <IndexLayout showFreeTrial={showFreeTrial}>
-                    <Hero showFreeTrial={showFreeTrial} />
-                    <Testimonials />
-                </IndexLayout>
-                <FreeTrial isFreeTrialShown={isFreeTrialShown} hideFreeTrial={hideFreeTrial} />
-            </div>
-        </CookiesProvider>
+        <div className="indexPage">
+            <Head>
+                <title>Full-Stack Web Developer – Nerijus Masikonis</title>
+                <meta name="description" content="I'm your go-to developer for everything web-related. Most of the other developers have no expertise in digital marketing. I do have."></meta>
+                <link rel="preconnect" href="https://i.vimeocdn.com" />
+            </Head>
+            <MetaTags />
+            <IndexLayout showFreeTrial={showFreeTrial}>
+                <Hero showFreeTrial={showFreeTrial} />
+                <Testimonials />
+            </IndexLayout>
+            <FreeTrial isFreeTrialShown={isFreeTrialShown} hideFreeTrial={hideFreeTrial} />
+        </div>
     );
 };
-
-export async function getServerSideProps(context) {
-    const cookies = new Cookies(context.req.headers.cookie);
-
-    return {
-        props: {
-            gdprAccepted: (cookies.get('gdprAccepted')) ? cookies.get('gdprAccepted') : false
-        },
-    }
-}
 
 export default Index;
