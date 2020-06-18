@@ -25,7 +25,7 @@ const listData = [
     {
         'image': 'daniel-meza.jpg',
         'alt': 'Daniel Meza',
-        'quote': "Working with Nerijus as an agency has made our process and workflow unbelievable. He is incredibly talented WordPress developer but what really makes him stand out is his work ethic and steady approach. I highly recommend Nerijus.",
+        'quote': "Working with Nerijus as an agency has made our process and workflow unbelievable. He is incredibly talented developer but what really makes him stand out is his work ethic and steady approach. I highly recommend Nerijus.",
         'name': 'Daniel Meza',
         'company': 'CEO, Muze Development',
         'location': 'Houston, USA'
