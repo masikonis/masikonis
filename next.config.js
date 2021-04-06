@@ -4,10 +4,13 @@ const optimizedImages = require('next-optimized-images');
 module.exports = withPlugins([
     [optimizedImages]
 ], {
-    exportTrailingSlash: true,
+    trailingSlash: true,
     exportPathMap: function() {
         return {
             '/': { page: '/' }
         };
-    }
+    },
+    future: {
+		webpack5: true,
+	}
 });
