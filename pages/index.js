@@ -33,8 +33,9 @@ const Index = (props) => {
         <div className="indexPage">
             <Head>
                 <title>Full-Stack Web Developer – Nerijus Masikonis</title>
-                <meta name="description" content="I'm your go-to developer for everything web-related. Most of the other developers have no expertise in digital marketing. I do have."></meta>
+                <meta name="description" content="I'm your go-to developer for everything web-related. As a conversion optimization enthusiast, I improve websites to sell better."></meta>
                 <link rel="preconnect" href="https://i.vimeocdn.com" />
+                <meta property="og:image" content={require('../public/images/logo-avatar.jpg')} />
             </Head>
             <MetaTags />
             <IndexLayout showConsultation={showConsultation}>
