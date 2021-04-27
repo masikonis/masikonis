@@ -19,7 +19,7 @@ const Footer = () => {
                                 <a href="https://github.com/masikonis" target="_blank" aria-label="Visit my GitHub profile" rel="noopener noreferrer"><FontAwesomeIcon icon={faGithub} /></a>
                             </li>
                             <li className={classnames(styles.socialLink, styles.socialLink__linkedin)}>
-                                <a href="https://www.linkedin.com/in/nerijus-masikonis" target="_blank" aria-label="Visit my LinkedIn profile" rel="noopener noreferrer"><FontAwesomeIcon icon={faLinkedin} /></a>
+                                <a href="https://www.linkedin.com/in/nerijusmasikonis" target="_blank" aria-label="Visit my LinkedIn profile" rel="noopener noreferrer"><FontAwesomeIcon icon={faLinkedin} /></a>
                             </li>
                             <li className={classnames(styles.socialLink, styles.socialLink__twitter)}>
                                 <a href="https://twitter.com/masikonis" target="_blank" aria-label="Visit my Twitter profile" rel="noopener noreferrer"><FontAwesomeIcon icon={faTwitter} /></a>
