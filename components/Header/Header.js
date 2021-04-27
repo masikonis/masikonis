@@ -24,8 +24,7 @@ const Header = (props) => {
                                 About
                             </a>
                         </Link>*/}
-                        {/*<Button href="#" type="tertiary" size="small-to-medium" onClick={props.showFreeTrial}>Free Trial</Button>*/}
-                        <Button href="#" type="tertiary" size="small-to-medium" onClick={props.showFreeTrial}>Schedule 1:1</Button>
+                        <Button href="#" type="tertiary" size="small-to-medium" target="_blank" onClick={props.showConsultation}>Schedule 1:1</Button>
                     </nav>
                 </div>
             </div>

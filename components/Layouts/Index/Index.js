@@ -4,7 +4,7 @@ import styles from './Index.module.scss';
 
 const IndexLayout = (props) => (
     <div className={styles.indexLayout}>
-        <Header showFreeTrial={props.showFreeTrial} />        
+        <Header showConsultation={props.showConsultation} />        
             {props.children}
         <Footer />
     </div>

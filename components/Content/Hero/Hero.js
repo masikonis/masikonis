@@ -27,13 +27,9 @@ const Hero = (props) => (
                 </SvgLoader>
             </div>
             <h1 className={styles.hero__heading}>I'm Your Go-To Developer for<span> </span>Everything Web-Related</h1>
-            {/*<h2 className={styles.hero__subheading}>Founders and CEOs use me to turn their business ideas into web products.</h2>*/}
-            <h2 className={styles.hero__subheading}>Coming from a background of digital marketing, I optimize websites to sell better.</h2>
-            {/*<h2 className={styles.hero__subheading}>Most of the other developers have no expertise in digital marketing. I do have.</h2>*/}
+            <h2 className={styles.hero__subheading}>Being a conversion optimization enthusiast, I improve websites to sell better.</h2>
             <div className={styles.hero__cta}>
-                {/*<Button href="#" type="secondary" onClick={props.showFreeTrial}>*/}
-                <Button href="#" type="secondary" onClick={props.showFreeTrial}>
-                    {/*Get to know me better*/}
+                <Button href="#" type="secondary" onClick={props.showConsultation}>
                     Start a consultation
                 </Button>
             </div>

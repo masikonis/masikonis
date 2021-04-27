@@ -8,10 +8,10 @@ import CookieBar from 'components/Utilities/CookieBar/CookieBar';
 import IndexLayout from 'components/Layouts/Index/Index';
 import Hero from 'components/Content/Hero/Hero';
 import Testimonials from 'components/Content/Testimonials/Testimonials';
-import FreeTrial from 'components/Utilities/FreeTrial/FreeTrial';
+import Consultation from 'components/Utilities/Consultation/Consultation';
 
 const Index = (props) => {
-    const [isFreeTrialShown, setFreeTrialShown] = useState(false);
+    const [isConsultationShown, setConsultationShown] = useState(false);
 
     useEffect(() => {
         Analytics();
@@ -19,14 +19,14 @@ const Index = (props) => {
         Drift();
     });
 
-    function showFreeTrial(event) {
+    function showConsultation(event) {
         event.preventDefault();
 
-        setFreeTrialShown(true);
+        setConsultationShown(true);
     }
 
-    function hideFreeTrial() {
-        setFreeTrialShown(false);
+    function hideConsultation() {
+        setConsultationShown(false);
     }
 
     return(
@@ -37,11 +37,11 @@ const Index = (props) => {
                 <link rel="preconnect" href="https://i.vimeocdn.com" />
             </Head>
             <MetaTags />
-            <IndexLayout showFreeTrial={showFreeTrial}>
-                <Hero showFreeTrial={showFreeTrial} />
+            <IndexLayout showConsultation={showConsultation}>
+                <Hero showConsultation={showConsultation} />
                 <Testimonials />
             </IndexLayout>
-            <FreeTrial isFreeTrialShown={isFreeTrialShown} hideFreeTrial={hideFreeTrial} />
+            <Consultation isConsultationShown={isConsultationShown} hideConsultation={hideConsultation} />
         </div>
     );
 };
