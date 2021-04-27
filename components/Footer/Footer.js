@@ -1,6 +1,7 @@
 import {FontAwesomeIcon} from '@fortawesome/react-fontawesome';
-import {faLinkedin} from '@fortawesome/free-brands-svg-icons';
 import {faGithub} from '@fortawesome/free-brands-svg-icons';
+import {faLinkedin} from '@fortawesome/free-brands-svg-icons';
+import {faTwitter} from '@fortawesome/free-brands-svg-icons';
 import classnames from 'classnames';
 import styles from './Footer.module.scss';
 
@@ -19,6 +20,9 @@ const Footer = () => {
                             </li>
                             <li className={classnames(styles.socialLink, styles.socialLink__linkedin)}>
                                 <a href="https://www.linkedin.com/in/nerijus-masikonis" target="_blank" aria-label="Visit my LinkedIn profile" rel="noopener noreferrer"><FontAwesomeIcon icon={faLinkedin} /></a>
+                            </li>
+                            <li className={classnames(styles.socialLink, styles.socialLink__twitter)}>
+                                <a href="https://twitter.com/masikonis" target="_blank" aria-label="Visit my Twitter profile" rel="noopener noreferrer"><FontAwesomeIcon icon={faTwitter} /></a>
                             </li>
                         </ul>
                     </div>
