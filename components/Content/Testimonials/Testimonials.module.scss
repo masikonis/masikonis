@@ -34,32 +34,39 @@
         }
     }
 
-    &__video {
-        display: block;
-        min-width: 80%;
-        min-height: 51vw;
-        margin: 0 auto;
+    &__videos {
+        display: flex;
+        flex-direction: column;
+        list-style-type: none;
         margin-top: 35px;
         margin-bottom: 25px;
-        background-size: cover;
 
-        @include mixins.medium {
-            max-width: 80%;
-            margin-top: 50px;
-            min-height: 43vw;
+        @include mixins.large {
+            flex-direction: row;
         }
 
-        @include mixins.extra-large {
-            min-height: 513px;
-        }
-    }
+        .video {
+            flex: 1;
 
-    &__videoauthor {
-        text-align: center;
-        padding-bottom: 35px;
+            @include mixins.large {
+                &:first-child {
+                    margin-right: 30px;
+                }
+            }
 
-        @include mixins.medium {
-            padding-bottom: 45px;
+            &__wrapper {
+                background-size: cover;
+            }
+
+            &__author {
+                text-align: center;
+                padding-bottom: 35px;
+                margin-top: 20px;
+
+                @include mixins.medium {
+                    padding-bottom: 45px;
+                }
+            }
         }
     }
 

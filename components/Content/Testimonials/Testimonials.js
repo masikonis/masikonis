@@ -52,36 +52,56 @@ const listItems = listData.map((testimonial, key) => {
 });
 
 const Testimonials = () => {
-    function initVideoPlayer(inView = false) {
-        let video = document.getElementById('video');
+    function initVideoPlayer(inView = false, videoId = '') {
+        let video = document.getElementById('video' + videoId);
 
         if( ! video.hasAttribute('data-vimeo-initialized') && inView === true) {
-            const player = new Vimeo('video', {
-                id: 351382262,
+            const player = new Vimeo('video' + videoId, {
+                id: videoId,
                 responsive: true,
                 title: false
             });
         }
     }
 
-    const lowQualityThumb = require('./images/video-thumb.jpg?lqip');
+    const lowQualityThumbEric = require('./images/eric-video-thumb.jpg?lqip');
+    const lowQualityThumbJeffrey = require('./images/jeffrey-video-thumb.jpg?lqip');
 
     return(
         <div className={styles.testimonials}>
             <div className="container">
                 <h2 className={styles.testimonials__heading}>What People Say About Me</h2>
                 <h3 className={styles.testimonials__subheading}>I have been lucky to work with fantastic people over the years. See what some of them have to say.</h3>
-                <div className={styles.testimonials__video} style={ { backgroundImage: `url(${lowQualityThumb})` } }>
-                    <InView as="div" onChange={(inView, entry) => initVideoPlayer(inView)}>
-                        <div id="video"></div>
-                    </InView>
-                </div>
-                <div className={styles.testimonials__videoauthor}>
-                    <hr />
-                    <div className={styles.author}>
-                        <div className={styles.author__name}>Eric Siu</div>
-                        <div className={styles.author__company}>CEO, Single Grain</div>
-                        <div className={styles.author__location}>Los Angeles, USA</div>
+                <div className={styles.testimonials__videos}>
+                    <div className={styles.video}>
+                        <div className={styles.video__wrapper} style={ { backgroundImage: `url(${lowQualityThumbEric})` } }>
+                            <InView as="div" onChange={(inView, entry) => initVideoPlayer(inView, 351382262)}>
+                                <div id="video351382262"></div>
+                            </InView>
+                        </div>
+                        <div className={styles.video__author}>
+                            <hr />
+                            <div className={styles.author}>
+                                <div className={styles.author__name}>Eric Siu</div>
+                                <div className={styles.author__company}>CEO, Single Grain</div>
+                                <div className={styles.author__location}>Los Angeles, USA</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div className={styles.video}>
+                        <div className={styles.video__wrapper} style={ { backgroundImage: `url(${lowQualityThumbJeffrey})` } }>
+                            <InView as="div" onChange={(inView, entry) => initVideoPlayer(inView, 543896594)}>
+                                <div id="video543896594"></div>
+                            </InView>
+                        </div>
+                        <div className={styles.video__author}>
+                            <hr />
+                            <div className={styles.author}>
+                                <div className={styles.author__name}>Dr. Jeffrey Vinokur</div>
+                                <div className={styles.author__company}>Founder & CEO, Generation Genius</div>
+                                <div className={styles.author__location}>Los Angeles, USA</div>
+                            </div>
+                        </div>
                     </div>
                 </div>
                 <ul className={styles.testimonials__list}>{listItems}</ul>
