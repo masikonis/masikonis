@@ -30,8 +30,7 @@ const Consultation = (props) => {
                 </div>
                 <div className={styles.consultation__content}>
                     <p>Need help defining your project? Speak with me and get advice on what could be done or how complex different approaches are.</p>
-                    <p>Consultations are charged at the fixed price of <strong>$69 USD</strong> for one hour.*</p>
-                    <p><small>*That’s $29 USD off the average hourly rate, to help you get going!</small></p>
+                    <p>Consultations are charged at the fixed price of <strong>$69 USD</strong> for one hour.</p>
                     <Button href="https://app.codeable.io/tasks/new?ref=0yTeE&preferredContractor=35672" target="_blank" type="secondary">
                         Start a consultation
                     </Button>
