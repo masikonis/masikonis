@@ -106,7 +106,7 @@ const Testimonials = () => {
                 </div>
                 <ul className={styles.testimonials__list}>{listItems}</ul>
                 <div className={styles.testimonials__cta}>
-                    <Button href="https://codeable.io/developers/nerijus-masikonis/?ref=0yTeE#reviews" target="_blank" rel="noopener">
+                    <Button href="https://codeable.io/developers/nerijus-masikonis/?ref=0yTeE" target="_blank" rel="noopener">
                         More Customer Reviews
                     </Button>
                 </div>
