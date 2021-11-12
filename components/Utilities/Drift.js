@@ -1,5 +1,5 @@
 const Drift = () => {
-    const scriptText = `!function() {
+	const scriptText = `!function() {
     var t = window.driftt = window.drift = window.driftt || [];
     if (!t.init) {
         if (t.invoked) return void (window.console && console.error && console.error("Drift snippet included twice."));
@@ -21,13 +21,13 @@ const Drift = () => {
     }();
     drift.SNIPPET_VERSION = '0.3.1';
     drift.load('ck6ygwmbfsb9');`;
-    const script = document.createElement('script');
-    script.innerText = scriptText;
-    script.async = true;
+	const script = document.createElement('script');
+	script.innerText = scriptText;
+	script.async = true;
 
-    setTimeout(function() {
-        document.head.appendChild(script);
-    }, 3000);
+	setTimeout(function () {
+		document.head.appendChild(script);
+	}, 3000);
 };
 
 export default Drift;

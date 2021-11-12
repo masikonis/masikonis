@@ -1,50 +1,22 @@
-import {useState, useEffect} from 'react';
+import { useState, useEffect } from 'react';
 import Head from 'next/head';
-import Analytics from 'components/Utilities/Analytics';
-import Fonts from 'components/Fonts';
+import GTM from 'components/Utilities/GTM';
+import Fonts from 'components/Utilities/Fonts';
 import Drift from 'components/Utilities/Drift';
-import MetaTags from 'components/Utilities/MetaTags';
-import CookieBar from 'components/Utilities/CookieBar/CookieBar';
-import IndexLayout from 'components/Layouts/Index/Index';
-import Hero from 'components/Content/Hero/Hero';
-import Testimonials from 'components/Content/Testimonials/Testimonials';
-import Consultation from 'components/Utilities/Consultation/Consultation';
+import MetaTags from 'components/Utilities/Meta';
 
 const Index = (props) => {
-    const [isConsultationShown, setConsultationShown] = useState(false);
+	useEffect(() => {
+		GTM();
+		Fonts();
+		Drift();
+	});
 
-    useEffect(() => {
-        Analytics();
-        Fonts();
-        Drift();
-    });
-
-    function showConsultation(event) {
-        event.preventDefault();
-
-        setConsultationShown(true);
-    }
-
-    function hideConsultation() {
-        setConsultationShown(false);
-    }
-
-    return(
-        <div className="indexPage">
-            <Head>
-                <title>Full-Stack Web Developer – Nerijus Masikonis</title>
-                <meta name="description" content="I'm your go-to developer for everything web-related. As a conversion optimization enthusiast, I improve websites to sell better."></meta>
-                <link rel="preconnect" href="https://i.vimeocdn.com" />
-                <meta property="og:image" content={require('../public/images/logo-avatar.jpg')} />
-            </Head>
-            <MetaTags />
-            <IndexLayout showConsultation={showConsultation}>
-                <Hero showConsultation={showConsultation} />
-                <Testimonials />
-            </IndexLayout>
-            <Consultation isConsultationShown={isConsultationShown} hideConsultation={hideConsultation} />
-        </div>
-    );
+	return (
+		<div className="indext bg-blue-500 text-white">
+			#index
+		</div>
+	);
 };
 
 export default Index;

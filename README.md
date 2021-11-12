@@ -1,11 +1,10 @@
 # Masikonis
 
-Personal website of Nerijus Masikonis, the full-stack web developer.
+Personal website of Nerijus Masikonis.
 
 ## Stack
 
-* [JAMstack](https://jamstack.org/)
-* [Next.js](https://nextjs.org/)
 * [React](https://reactjs.org/)
-* [Sass](https://sass-lang.com/)
+* [Next.js](https://nextjs.org/)
+* [Tailwind CSS](https://tailwindcss.com/)
 * [Vercel](https://vercel.com/)
