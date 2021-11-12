@@ -6,7 +6,7 @@ module.exports = {
 		],
 		safelist: [],
 	},
-	darkMode: false, // or 'media' or 'class'
+	darkMode: 'media',
 	theme: {
 		extend: {},
 	},
