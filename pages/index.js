@@ -13,7 +13,7 @@ const Index = (props) => {
 	});
 
 	return (
-		<div className="indext bg-blue-500 text-white">
+		<div className="index bg-sky-700 text-white">
 			#index
 		</div>
 	);
