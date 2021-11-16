@@ -11,7 +11,10 @@ module.exports = {
 	},
 	darkMode: 'media',
 	theme: {
-		extend: {},
+		fontFamily: {
+			sans: ['"Noto Sans"', 'sans-serif'],
+			serif: ['"Noto Serif"', 'serif'],
+		},
 		colors: {
 			transparent: 'transparent',
 			current: 'currentColor',
@@ -23,13 +26,10 @@ module.exports = {
 		container: (theme) => ({
 			center: true,
 			padding: {
-				DEFAULT: theme('spacing.4'),
-				sm: theme('spacing.8'),
-				lg: theme('spacing.12'),
-				xl: theme('spacing.16'),
-				'2xl': theme('spacing.20'),
+				DEFAULT: '1.5rem',
 			},
 		}),
+		extend: {},
 	},
 	variants: {
 		extend: {},
