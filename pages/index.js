@@ -5,12 +5,14 @@ import Fonts from 'components/Utilities/Fonts';
 import Drift from 'components/Utilities/Drift';
 import Meta from 'components/Utilities/Meta';
 import Welcome from 'components/Blocks/Welcome/Welcome';
+import Testimonials from 'components/Blocks/Testimonials/Testimonials';
+import Footer from 'components/BLocks/Footer/Footer';
 
 const Index = (props) => {
 	useEffect(() => {
 		GTM();
 		Fonts();
-		Drift();
+		//Drift();
 	});
 
 	return (
@@ -21,6 +23,8 @@ const Index = (props) => {
 			</Head>
 			<Meta />
 			<Welcome />
+			<Testimonials />
+			<Footer />
 		</div>
 	);
 };
