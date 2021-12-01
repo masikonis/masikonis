@@ -106,7 +106,7 @@ const Testimonials = (props) => {
 					{listItems}
 				</ul>
 				<div className="mt-8 text-center">
-					<a href="https://www.codeable.io/developers/nerijus-masikonis/?ref=0yTeE" target="_blank" rel="noopener noreferrer" className="inline-block bg-sky-700 p-5 rounded text-white text-center font-bold uppercase">More client reviews</a>
+					<a href="https://www.codeable.io/developers/nerijus-masikonis/?ref=0yTeE" target="_blank" rel="noopener noreferrer" className="inline-block bg-sky-700 p-5 rounded text-white text-center font-bold uppercase">Reviews on Codeable</a>
 				</div>
 			</div>
 		</section>

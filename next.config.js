@@ -9,6 +9,6 @@ module.exports = {
 	webpack5: true,
 	swcMinify: true,
 	images: {
-		domains: ['a.storyblok.com'],
+		domains: ['images.credential.net'],
 	},
 };
