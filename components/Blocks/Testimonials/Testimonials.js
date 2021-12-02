@@ -50,7 +50,7 @@ const Testimonials = (props) => {
 	];
 	const listItems = testimonials.map((testimonial, key) => {
 		return (
-			<li key={key} className="block box-border p-5 mb-7 last:mb-0 border-solid border border-gray-300 bg-white text-center">
+			<li key={key} className="block md:flex-1 box-border p-5 md:p-3 md:pb-4 mb-7 md:mb-0 md:mr-3 md:last:mr-0 last:mb-0 border-solid border border-gray-300 bg-white text-center">
 				<Image src={testimonial.image} width={140} height={140} alt={testimonial.name} className="mx-auto rounded-full" />
 				<p className="mt-5 font-sans text-gray-800 text-sm"><FontAwesomeIcon icon={faQuoteLeft} className="text-sky-700" /> {testimonial.quote}</p>
 				<hr className="border-none block w-1/6 h-0.5 mx-auto my-4 bg-sky-700" />
@@ -66,10 +66,10 @@ const Testimonials = (props) => {
 	return (
 		<section id="TestimonialsBlock" className="bg-gray-50 py-8">
 			<div className="container">
-				<h2 className="font-serif text-gray-800 text-xl text-center">What People Say About Me</h2>
+				<h2 className="font-serif text-gray-800 text-xl md:text-2xl text-center">What People Say About Me</h2>
 				<p className="mt-4 font-sans text-gray-800 text-md text-center">I have been lucky to work with fantastic people over the years. See what some of them have to say.</p>
-				<ul className="flex flex-col mt-6">
-					<li className="mb-6">
+				<ul className="flex flex-col md:flex-row mt-6">
+					<li className="border-box mb-6 md:mb-0 md:flex-1 md:pr-10">
 						<div className="relative">
 							<Image src={placeholderEric} layout="fill" alt="placeholde" />
 						</div>
@@ -85,7 +85,7 @@ const Testimonials = (props) => {
 							</div>
 						</div>
 					</li>
-					<li>
+					<li className="border-box md:flex-1">
 						<div className="relative">
 							<Image src={placeholderJeffrey} layout="fill" alt="placeholder" />
 						</div>
@@ -102,11 +102,11 @@ const Testimonials = (props) => {
 						</div>
 					</li>
 				</ul>
-				<ul className="mt-10">
+				<ul className="mt-10 md:flex">
 					{listItems}
 				</ul>
 				<div className="mt-8 text-center">
-					<a href="https://www.codeable.io/developers/nerijus-masikonis/?ref=0yTeE" target="_blank" rel="noopener noreferrer" className="inline-block bg-sky-700 p-5 rounded text-white text-center font-bold uppercase">Reviews on Codeable</a>
+					<a href="https://www.codeable.io/developers/nerijus-masikonis/?ref=0yTeE" target="_blank" rel="noopener noreferrer" className="inline-block bg-sky-700 p-4 rounded text-white text-center font-bold uppercase">Reviews on Codeable</a>
 				</div>
 			</div>
 		</section>
