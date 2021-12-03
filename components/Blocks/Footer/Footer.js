@@ -11,15 +11,15 @@ const Footer = (props) => {
 			<div className="container">
 				<div className="flex flex-wrap">
 					<div className="flex-auto flex items-center">
-						<div className="font-sans text-gray-800 text-xs">Copyright &copy; {currentDate.getFullYear()} Nerijus Masikonis</div>
+						<div className="font-sans text-gray-800 text-xs md:text-sm">Copyright &copy; {currentDate.getFullYear()} Nerijus Masikonis</div>
 					</div>
 					<div className="flex-auto">
 						<ul className="flex justify-end">
 							<li>
-								<a href="https://github.com/masikonis" target="_blank" aria-label="Visit my GitHub profile" rel="noopener noreferrer" className="mr-2 text-lg"><FontAwesomeIcon icon={faGithub} /></a>
+								<a href="https://github.com/masikonis" target="_blank" aria-label="Visit my GitHub profile" rel="noopener noreferrer" className="mr-2 text-lg xl:text-xl"><FontAwesomeIcon icon={faGithub} /></a>
 							</li>
 							<li>
-								<a href="https://www.linkedin.com/in/nerijusmasikonis" target="_blank" aria-label="Visit my LinkedIn profile" rel="noopener noreferrer" className="text-lg"><FontAwesomeIcon icon={faLinkedin} /></a>
+								<a href="https://www.linkedin.com/in/nerijusmasikonis" target="_blank" aria-label="Visit my LinkedIn profile" rel="noopener noreferrer" className="text-lg xl:text-xl"><FontAwesomeIcon icon={faLinkedin} /></a>
 							</li>
 						</ul>
 					</div>
