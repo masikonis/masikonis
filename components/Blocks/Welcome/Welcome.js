@@ -1,4 +1,5 @@
 import Image from 'next/image';
+import Link from 'next/link';
 import illustration from './images/illustration.svg';
 
 const Welcome = (props) => {
@@ -14,7 +15,9 @@ const Welcome = (props) => {
 					</div>
 					<h1 className="mt-6 font-serif text-4xl md:text-5xl xl:text-6xl max-w-2xl xl:max-w-4xl">I'm Your Go-To Developer for Everything Web-Related</h1>
 					<h2 className="mt-3 font-sans text-lg md:text-xl xl:text-2xl">As a conversion optimization enthusiast, I improve websites to sell better.</h2>
-					<a href="#" className="inline-block bg-white hover:bg-transparent p-5 mt-6 rounded text-sky-700 hover:text-white border-2 border-white text-center text-sm xl:text-lg font-sans font-bold uppercase">Work Experience</a>
+					<Link href="/experience">
+						<a className="inline-block bg-white hover:bg-transparent p-5 mt-6 rounded text-sky-700 hover:text-white border-2 border-white text-center text-sm xl:text-lg font-sans font-bold uppercase">Work Experience</a>
+					</Link>
 					<div className="block mt-6 opacity-25 md:hidden">
 						<Image src={illustration} layout="responsive" alt="illustration" />
 					</div>
