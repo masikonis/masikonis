@@ -14,7 +14,7 @@ const Index = (props) => {
 	useEffect(() => {
 		GTM();
 		Fonts();
-		//Drift();
+		Drift();
 	});
 
 	return (
