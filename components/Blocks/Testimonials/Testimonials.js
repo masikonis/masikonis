@@ -64,7 +64,7 @@ const Testimonials = (props) => {
 	});
 
 	return (
-		<section id="TestimonialsBlock" className="bg-gray-50 py-8">
+		<section id="TestimonialsBlock" className="bg-gray-100 py-8">
 			<div className="container">
 				<h2 className="font-serif text-gray-800 text-xl md:text-2xl xl:text-3xl text-center">What People Say About Me</h2>
 				<p className="mt-4 font-sans text-gray-800 text-base xl:text-lg text-center">I have been lucky to work with fantastic people over the years. See what some of them have to say.</p>

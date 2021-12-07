@@ -6,6 +6,7 @@ import Drift from 'components/Utilities/Drift';
 import Meta from 'components/Utilities/Meta';
 import Header from 'components/Blocks/Header/Header';
 import About from 'components/Blocks/About/About';
+import Testimonials from 'components/Blocks/Testimonials/Testimonials';
 import Codeable from 'components/Blocks/Codeable/Codeable';
 import Footer from 'components/BLocks/Footer/Footer';
 
@@ -19,13 +20,14 @@ const Experience = (props) => {
 	return (
 		<div id="IndexPage">
 			<Head>
-				<title>My Work Experience – Nerijus Masikonis</title>
-				<meta name="description" content="I'm your go-to developer for everything web-related. As a conversion optimization enthusiast, I improve websites to sell better."></meta>
+				<title>About Me – Nerijus Masikonis</title>
+				<meta name="description" content="I created my first website in 2004 and I’ve continued to create even more complex ones as my education and skill set grew."></meta>
 			</Head>
 			<Meta />
 			<Header />
 			<About />
 			<Codeable />
+			<Testimonials />
 			<Footer />
 		</div>
 	);

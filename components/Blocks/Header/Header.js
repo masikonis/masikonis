@@ -5,7 +5,7 @@ import logoBig from './images/logo-big.svg';
 
 const Header = (props) => {
 	return (
-		<section id="WelcomeBlock" className="bg-sky-700 pt-6 xl:pt-8">
+		<section id="WelcomeBlock" className="bg-sky-700 pt-6 pb-4 xl:pt-8">
 			<div className="container">
 				<div className="flex">
 					<div className="flex-1">
