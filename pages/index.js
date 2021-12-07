@@ -8,7 +8,7 @@ import Header from 'components/Blocks/Header/Header';
 import Welcome from 'components/Blocks/Welcome/Welcome';
 import Testimonials from 'components/Blocks/Testimonials/Testimonials';
 import Codeable from 'components/Blocks/Codeable/Codeable';
-import Footer from 'components/BLocks/Footer/Footer';
+import Footer from 'components/Blocks/Footer/Footer';
 
 const Index = (props) => {
 	useEffect(() => {

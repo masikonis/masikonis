@@ -8,7 +8,7 @@ import Header from 'components/Blocks/Header/Header';
 import About from 'components/Blocks/About/About';
 import Testimonials from 'components/Blocks/Testimonials/Testimonials';
 import Codeable from 'components/Blocks/Codeable/Codeable';
-import Footer from 'components/BLocks/Footer/Footer';
+import Footer from 'components/Blocks/Footer/Footer';
 
 const Experience = (props) => {
 	useEffect(() => {
