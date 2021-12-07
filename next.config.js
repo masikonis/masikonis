@@ -11,4 +11,13 @@ module.exports = {
 	images: {
 		domains: ['images.credential.net'],
 	},
+	async redirects() {
+		return [
+			{
+				source: '/about/',
+				destination: '/experience/',
+				permanent: true,
+			}
+		];
+	}
 };
