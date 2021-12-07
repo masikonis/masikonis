@@ -1,6 +1,6 @@
 # Masikonis
 
-Personal website of Nerijus Masikonis.
+Personal website of Nerijus Masikonis. [Click here to visit](https://masikonis.lt/).
 
 ## Stack
 
