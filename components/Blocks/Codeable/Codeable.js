@@ -48,7 +48,7 @@ const Codeable = (props) => {
 					</div>
 				</div>
 				<div className="mt-8 text-center">
-					<a href="https://app.codeable.io/tasks/new?ref=0yTeE&preferredContractor=35672" target="_blank" rel="noopener noreferrer" className="inline-block bg-sky-700 p-4 rounded text-white text-center font-bold uppercase">Post Your Project</a>
+					<a href="https://app.codeable.io/tasks/new?ref=0yTeE&preferredContractor=35672" target="_blank" rel="noopener noreferrer" className="inline-block bg-sky-700 hover:bg-white p-4 border-white hover:border-sky-700 border-2 rounded text-white hover:text-sky-700 text-center font-bold uppercase text-base">Post Your Project</a>
 				</div>
 			</div>
 		</section>

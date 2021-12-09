@@ -50,7 +50,7 @@ const Testimonials = (props) => {
 	];
 	const listItems = testimonials.map((testimonial, key) => {
 		return (
-			<li key={key} className="block md:flex-1 box-border p-5 md:p-3 md:pb-4 mb-7 md:mb-0 md:mr-3 md:last:mr-0 last:mb-0 xl:p-5 border-solid border border-gray-300 bg-white text-center">
+			<li key={key} className="block md:flex-1 box-border p-5 md:p-3 md:pb-4 mb-7 md:mb-0 md:mr-3 md:last:mr-0 last:mb-0 xl:p-4 xl:pb-6 border-solid border border-gray-300 bg-white text-center">
 				<Image src={testimonial.image} width={140} height={140} alt={testimonial.name} className="mx-auto rounded-full" />
 				<p className="mt-5 font-sans text-gray-800 text-sm xl:text-base"><FontAwesomeIcon icon={faQuoteLeft} className="text-sky-700" /> {testimonial.quote}</p>
 				<hr className="border-none block w-1/6 h-0.5 mx-auto my-4 bg-sky-700" />
@@ -106,7 +106,7 @@ const Testimonials = (props) => {
 					{listItems}
 				</ul>
 				<div className="mt-8 text-center">
-					<a href="https://www.codeable.io/developers/nerijus-masikonis/?ref=0yTeE" target="_blank" rel="noopener noreferrer" className="inline-block bg-sky-700 p-4 rounded text-white text-center font-bold uppercase text-base">Reviews on Codeable</a>
+					<a href="https://www.codeable.io/developers/nerijus-masikonis/?ref=0yTeE" target="_blank" rel="noopener noreferrer" className="inline-block bg-sky-700 hover:bg-white p-4 border-white hover:border-sky-700 border-2 rounded text-white hover:text-sky-700 text-center font-bold uppercase text-base">Reviews on Codeable</a>
 				</div>
 			</div>
 		</section>
