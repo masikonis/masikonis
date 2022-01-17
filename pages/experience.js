@@ -21,7 +21,7 @@ const Experience = (props) => {
 		<div id="IndexPage">
 			<Head>
 				<title>About Me – Nerijus Masikonis</title>
-				<meta name="description" content="I created my first website in 2004 and I’ve continued to create even more complex ones as my education and skill set grew."></meta>
+				<meta name="description" content="Since building my first website back in 2004 I’ve had a burning passion for web development, and more recently, customer experience optimization."></meta>
 			</Head>
 			<Meta />
 			<Header />
