@@ -12,9 +12,9 @@ const Qualities = (props) => {
 				<Image src={avatarImg} width={175} height={175} alt="Nerijus Masikonis" className="rounded-full" />
 			</div>
 			<h3 className="mt-3 font-serif text-white text-xl">
-				My name is Nerijus, I’m a <strong className="font-bold">Full-Stack Web Developer</strong> based in Lithuania, working with clients all over the world.
+				{"Hello, I’m Nerijus 👋 I’m a freelance"} <strong className="font-bold">{"full-stack web developer"}</strong> &amp; {"customer experience optimization enthusiast."}
 			</h3>
-			<ul className="mt-8">
+			<ul className="mt-10">
 				<li className="box-border pl-20 mb-5 bg-no-repeat" style={{ backgroundImage: `url(${briefcaseIcon.src})` }}>
 					<strong className="block mb-1 font-sans text-sm xl:text-base text-white uppercase">Organised</strong>
 					<span className="font-sans text-sm xl:text-base text-white">I am highly organized, know how to prioritize, adapt quickly when the scope changes and thrive in a fast-paced environment with tight deadlines.</span>

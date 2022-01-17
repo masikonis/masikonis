@@ -1,14 +1,20 @@
 const Experience = (props) => {
 	return (
 		<div className="py-8">
-			<div className="">
+			<div className="xl:max-w-10xl">
 				<h1 className="font-serif mb-6 text-2xl md:text-3xl xl:text-4xl text-gray-800">About Me</h1>
-				<p className="mb-4 font-sans text-gray-800 text-base xl:text-base">I created my first website in 2004 and I’ve continued to create even more complex ones as my education and skill set grew.</p>
-				<p className="mb-4 font-sans text-gray-800 text-base xl:text-base">My <strong className="text-sky-700">formal education</strong> consists of a Bachelor’s degree in Informatics and a Master’s degree in Management. That has allowed me to be able to understand problems and requirements from a business point of view and be able to apply a technology solution to them.</p>
-				<p className="mb-8 font-sans text-gray-800 text-base xl:text-base"><strong className="text-sky-700">Remote work is in my blood.</strong> I am highly organized, have strong discipline, know the benefits and the challenges. I’ve been working remotely for companies in Geneva, Switzerland and Los Angeles, California as a full-time web developer.</p>
-				<h2 className="mb-4 font-serif text-gray-800 text-xl md:text-2xl xl:text-3xl">Diverse Background</h2>
-				<p className="mb-4 font-sans text-gray-800 text-base xl:text-base">Having worked as a team leader at Too Pixel, a formerly well-known Swiss web design agency, taught me <strong className="text-sky-700">attention to detail</strong> and instilled in me what great design looks like.</p>
-				<p className="font-sans text-gray-800 text-base xl:text-base">Following that, I worked at Single Grain, a leading digital marketing agency, where I grew my full-stack web development skills and added additional <strong className="text-sky-700">skills in digital marketing</strong> that empower me to help any company scale their business effectively.</p>
+				<p className="mb-4 font-sans text-gray-800 text-base xl:text-base">{"Since building my first website back in 2004 I’ve had a burning passion for web development, and more recently, customer experience optimization. Nothing excites me more than delivering work that generates leads & sales reliably on autopilot, helping to free up my client’s valuable time."}</p>
+				<p className="mb-4 font-sans text-gray-800 text-base xl:text-base">{"I help companies ensure their websites, funnels, ads, email marketing, and analytics work seamlessly together. I can build these systems from scratch, optimize what’s already there, or simply give my professional opinion on how to solve any business or web-related problem."}</p>
+				<p className="mb-4 font-sans text-gray-800 text-base xl:text-base">{"I’ve worked full-time remotely for over 12 years with clients from both America and Europe. I’m based in Lithuania but no matter the time difference, I pride myself on getting the work done on time and mesh seamlessly with any team that values great communication."}</p>
+				<p className="mb-8 font-sans text-gray-800 text-base xl:text-base">{"My roles as lead developer, web consultant, and advisor to companies in many different fields has helped me to think on my feet and solve problems fast. That’s why unlike a lot of other developers, I thrive in fast-paced environments with tight deadlines and high-expectations."}</p>
+				<h2 className="mb-4 font-serif text-gray-800 text-xl md:text-2xl xl:text-3xl">Work Experience</h2>
+				<p className="mb-6 font-sans text-gray-800 text-base xl:text-base">{"Over the years I’ve had the pleasure to work with some truly great companies and clients."}</p>
+				<h2 className="mb-4 font-serif text-gray-800 text-xl md:text-xl xl:text-2xl">Too Pixel</h2>
+				<p className="mb-4 font-sans text-gray-800 text-base xl:text-base">{"Too Pixel was a traditional web design agency focused on providing custom-built solutions for their clients. After becoming one of their first hires, I was soon promoted to the lead developer role and managed projects for brands including: CERN, Notz Stucki, EPFL, Newby of London, and much more."}</p>
+				<p className="mb-6 font-sans text-gray-800 text-base xl:text-base">{"My 7 years working full-time remotely for Too Pixel helped me master my core skill of web development. The traditional agency atmosphere also helped me learn how to work effectively as part of a team with high-stakes projects on the line. I had to pitch ideas, implement feedback, and shift gears quickly when plans had to change."}</p>
+				<h2 className="mb-4 font-serif text-gray-800 text-xl md:text-xl xl:text-2xl">Generation Genius</h2>
+				<p className="mb-4 font-sans text-gray-800 text-base xl:text-base">{"Generation Genius is a Los Angeles based startup building an educational streaming service teaching kids about science & math. During the early phase of the company’s growth I was invited to join as a full-time web developer."}</p>
+				<p className="mb-4 font-sans text-gray-800 text-base xl:text-base">{"I led a campaign to overhaul all the legacy systems they had in place. I implemented new features to the website, fixed numerous long-standing bugs, and created an easy way to run & analyze split tests. In my 2 years leading the development growth scaled from 250K to 1.25M visitors per month along with a 6X increase in revenue, turning Generation Genius into a thriving business."}</p>
 			</div>
 		</div>
 	);
