@@ -2,7 +2,7 @@ const Experience = (props) => {
 	return (
 		<div className="py-8">
 			<div className="xl:max-w-10xl">
-				<h1 className="font-serif mb-6 text-2xl text-center lg:text-left md:text-3xl xl:text-4xl text-gray-800">About Me</h1>
+				<h1 className="font-serif mb-6 text-3xl text-center lg:text-left md:text-4xl xl:text-4xl text-gray-800">About Me</h1>
 				<p className="mb-4 font-sans text-gray-800 text-base xl:text-base">Since building my first website back in 2004 I’ve had a burning passion for web development, and more recently, customer experience optimization. Nothing excites me more than delivering work that generates leads &amp; sales reliably on autopilot, helping to free up my client’s valuable time.</p>
 				<p className="mb-4 font-sans text-gray-800 text-base xl:text-base">I help companies ensure their websites, funnels, ads, email marketing, and analytics work seamlessly together. I can build these systems from scratch, optimize what’s already there, or simply give my professional opinion on how to solve any business or web-related problem.</p>
 				<p className="mb-4 font-sans text-gray-800 text-base xl:text-base">I’ve worked full-time remotely for over 12 years with clients from both America and Europe. I’m based in Lithuania but no matter the time difference, I pride myself on getting the work done on time and mesh seamlessly with any team that values great communication.</p>
