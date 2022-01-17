@@ -7,7 +7,7 @@ const Experience = (props) => {
 				<p className="mb-4 font-sans text-gray-800 text-base xl:text-base">I help companies ensure their websites, funnels, ads, email marketing, and analytics work seamlessly together. I can build these systems from scratch, optimize what’s already there, or simply give my professional opinion on how to solve any business or web-related problem.</p>
 				<p className="mb-4 font-sans text-gray-800 text-base xl:text-base">I’ve worked full-time remotely for over 12 years with clients from both America and Europe. I’m based in Lithuania but no matter the time difference, I pride myself on getting the work done on time and mesh seamlessly with any team that values great communication.</p>
 				<p className="mb-8 font-sans text-gray-800 text-base xl:text-base">My roles as lead developer, web consultant, and advisor to companies in many different fields has helped me to think on my feet and solve problems fast. That’s why unlike a lot of other developers, I thrive in fast-paced environments with tight deadlines and high-expectations.</p>
-				<h2 className="mb-4 font-serif text-gray-800 text-xl md:text-2xl xl:text-3xl">Work Experience</h2>
+				<h2 className="mb-4 font-serif text-gray-800 text-2xl md:text-3xl xl:text-3xl">Work Experience</h2>
 				<p className="mb-6 font-sans text-gray-800 text-base xl:text-base">Over the years I’ve had the pleasure to work with some truly great companies and clients.</p>
 				<h2 className="mb-4 font-serif text-gray-800 text-xl md:text-xl xl:text-2xl">Too Pixel</h2>
 				<p className="mb-4 font-sans text-gray-800 text-base xl:text-base">Too Pixel was a traditional web design agency focused on providing custom-built solutions for their clients. After becoming one of their first hires, I was soon promoted to the lead developer role and managed projects for brands including: CERN, Notz Stucki, EPFL, Newby of London, and much more.</p>
@@ -18,9 +18,6 @@ const Experience = (props) => {
 				<h2 className="mb-4 font-serif text-gray-800 text-xl md:text-xl xl:text-2xl">Single Grain</h2>
 				<p className="mb-4 font-sans text-gray-800 text-base xl:text-base">Since 2009, Single Grain has been one of the world’s leading digital marketing agencies, with clients like Uber, Amazon, Lyft, SalesForce, and AirBnB. I was first hired to manage all the web properties of the company and report directly to the CEO, Eric Siu, known best for his Marketing School podcast with Neil Patel.</p>
 				<p className="mb-4 font-sans text-gray-800 text-base xl:text-base">My core expertise at the time was web development, but being surrounded by award-winning marketers, I quickly learned a lot more about digital marketing and conversion rate optimization (CRO). I was soon invited to join the internal Growth Team, responsible for scaling Eric’s personal brand and new business ventures. These projects were built in a ‘lean startup’ mentality, requiring me to learn new skills fast, and find solutions to problems working with limited resources.</p>
-				<p className="mb-4 font-sans text-gray-800 text-base xl:text-base"></p>
-				<p className="mb-4 font-sans text-gray-800 text-base xl:text-base"></p>
-				<p className="mb-4 font-sans text-gray-800 text-base xl:text-base"></p>
 			</div>
 		</div>
 	);
