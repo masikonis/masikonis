@@ -6,7 +6,7 @@ const Codeable = (props) => {
 		<section id="CodeableBlock" className="bg-white py-8">
 			<div className="container">
 				<h2 className="font-serif text-gray-800 text-xl md:text-2xl xl:text-3xl text-center">Hire Me on Codeable</h2>
-				<p className="mt-4 font-sans text-gray-800 text-base xl:text-lg text-center">Need help defining your project? Have a clear idea of what you need done? Let’s have a chat.</p>
+				<p className="mt-4 font-sans text-gray-800 text-base xl:text-lg text-center">After a careful vetting process which included a professional review, technical exam, behavioral interview and live coding test, I was accepted into Codeable in 2017 to offer my services on their premium marketplace. Since then, I’ve completed over 130 projects for 46 clients, with a verified user rating of 4.96 out of 5 stars.</p>
 				<div className="md:flex md:mt-7 xl:max-w-5xl xl:mx-auto">
 					<div className="md:flex-1 md:flex md:items-center md:justify-center">
 						<div className="mt-6 md:mt-0 text-center">
