@@ -1,10 +1,15 @@
 const colors = require('tailwindcss/colors');
 
 module.exports = {
-	content: [
-		'./pages/**/*.{js,ts,jsx,tsx}',
-		'./components/**/*.{js,ts,jsx,tsx}'
-	],
+	mode: 'jit',
+	purge: {
+		content: [
+			'./pages/**/*.{js,ts,jsx,tsx}',
+			'./components/**/*.{js,ts,jsx,tsx}'
+		],
+		safelist: [],
+	},
+	darkMode: 'media',
 	theme: {
 		fontFamily: {
 			sans: ['"Noto Sans"', 'sans-serif'],
@@ -25,6 +30,9 @@ module.exports = {
 				'2xl': '13rem',
 			},
 		}),
+		extend: {},
+	},
+	variants: {
 		extend: {},
 	},
 	plugins: [],
