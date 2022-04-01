@@ -1,6 +1,8 @@
+import React from 'react';
+import { useState, useEffect } from 'react';
 import Image from 'next/image';
 import { InView } from 'react-intersection-observer';
-import Vimeo from '@vimeo/player';
+import ReactPlayer from 'react-player';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faQuoteLeft } from '@fortawesome/free-solid-svg-icons';
 import placeholderEric from './images/eric-video-thumb.jpg?lqip';
@@ -10,15 +12,16 @@ import imageChristophe from './images/christophe-prudent.jpg';
 import imageDaniel from './images/daniel-meza.jpg';
 
 const Testimonials = (props) => {
-	function initVideoPlayer(inView = false, videoId = '') {
-		let video = document.getElementById('video' + videoId);
+	const [video1Markup, setVideo1Markup] = useState('');
+	const [video2Markup, setVideo2Markup] = useState('');
 
-		if (!video.hasAttribute('data-vimeo-initialized') && inView === true) {
-			const player = new Vimeo('video' + videoId, {
-				id: videoId,
-				responsive: true,
-				title: false
-			});
+	function initVideoPlayer(inView = false, videoId = '') {
+		if (videoId == '351382262' && video1Markup == '' && inView === true) {
+			setVideo1Markup(<div style={playerWrapperStyles}><ReactPlayer url="https://vimeo.com/351382262" width="100%" height="100%" className="absolute top-0 left-0" /></div >);
+		}
+
+		if (videoId == '543896594' && video2Markup == '' && inView === true) {
+			setVideo2Markup(<div style={playerWrapperStyles}><ReactPlayer url="https://vimeo.com/543896594" width="100%" height="100%" className="absolute top-0 left-0" /></div >);
 		}
 	}
 
@@ -62,6 +65,10 @@ const Testimonials = (props) => {
 			</li>
 		);
 	});
+	const playerWrapperStyles = {
+		position: 'relative',
+		paddingTop: '56.25%'
+	};
 
 	return (
 		<section id="TestimonialsBlock" className="bg-gray-100 py-8">
@@ -75,7 +82,7 @@ const Testimonials = (props) => {
 						</div>
 						<div className="relative z-1">
 							<InView as="div" onChange={(inView, entry) => initVideoPlayer(inView, 351382262)}>
-								<div id="video351382262"></div>
+								{video1Markup}
 							</InView>
 							<hr className="border-none block w-1/6 h-0.5 mx-auto my-4 bg-sky-700" />
 							<div>
@@ -91,7 +98,7 @@ const Testimonials = (props) => {
 						</div>
 						<div className="relative z-1">
 							<InView as="div" onChange={(inView, entry) => initVideoPlayer(inView, 543896594)}>
-								<div id="video543896594"></div>
+								{video2Markup}
 							</InView>
 							<hr className="border-none block w-1/6 h-0.5 mx-auto my-4 bg-sky-700" />
 							<div>
