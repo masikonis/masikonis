@@ -78,22 +78,6 @@ const Testimonials = (props) => {
 				<ul className="flex flex-col md:flex-row mt-6">
 					<li className="border-box mb-6 md:mb-0 md:flex-1 md:pr-10">
 						<div className="relative">
-							<Image src={placeholderEric} layout="fill" alt="placeholde" />
-						</div>
-						<div className="relative z-1">
-							<InView as="div" onChange={(inView, entry) => initVideoPlayer(inView, 351382262)}>
-								{video1Markup}
-							</InView>
-							<hr className="border-none block w-1/6 h-0.5 mx-auto my-4 bg-sky-700" />
-							<div>
-								<div className="font-serif text-gray-800 text-center text-lg">Eric Siu</div>
-								<div className="font-sans font-bold text-sky-700 text-center text-sm xl:text-base">CEO, Single Grain</div>
-								<div className="font-sans text-gray-800 text-center text-xs xl:text-sm uppercase">Los Angeles, USA</div>
-							</div>
-						</div>
-					</li>
-					<li className="border-box md:flex-1">
-						<div className="relative">
 							<Image src={placeholderJeffrey} layout="fill" alt="placeholder" />
 						</div>
 						<div className="relative z-1">
@@ -104,6 +88,22 @@ const Testimonials = (props) => {
 							<div>
 								<div className="font-serif text-gray-800 text-center text-lg">Dr. Jeffrey Vinokur</div>
 								<div className="font-sans font-bold text-sky-700 text-center text-sm xl:text-base">Founder, Generation Genius</div>
+								<div className="font-sans text-gray-800 text-center text-xs xl:text-sm uppercase">Los Angeles, USA</div>
+							</div>
+						</div>
+					</li>
+					<li className="border-box md:flex-1">
+						<div className="relative">
+							<Image src={placeholderEric} layout="fill" alt="placeholde" />
+						</div>
+						<div className="relative z-1">
+							<InView as="div" onChange={(inView, entry) => initVideoPlayer(inView, 351382262)}>
+								{video1Markup}
+							</InView>
+							<hr className="border-none block w-1/6 h-0.5 mx-auto my-4 bg-sky-700" />
+							<div>
+								<div className="font-serif text-gray-800 text-center text-lg">Eric Siu</div>
+								<div className="font-sans font-bold text-sky-700 text-center text-sm xl:text-base">CEO, Single Grain</div>
 								<div className="font-sans text-gray-800 text-center text-xs xl:text-sm uppercase">Los Angeles, USA</div>
 							</div>
 						</div>
