@@ -75,6 +75,7 @@ const Testimonials = (props) => {
 			<div className="container">
 				<h2 className="font-serif text-gray-800 text-xl md:text-2xl xl:text-3xl text-center">What People Say About Me</h2>
 				<p className="mt-4 font-sans text-gray-800 text-base xl:text-lg text-center">I have been lucky to work with fantastic people over the years. See what some of them have to say.</p>
+				{/*
 				<ul className="flex flex-col md:flex-row mt-6">
 					<li className="border-box mb-6 md:mb-0 md:flex-1 md:pr-10">
 						<div className="relative">
@@ -109,6 +110,7 @@ const Testimonials = (props) => {
 						</div>
 					</li>
 				</ul>
+				*/}
 				<ul className="mt-10 md:flex">
 					{listItems}
 				</ul>
