@@ -6,7 +6,6 @@ module.exports = {
 			'/': { page: '/' }
 		};
 	},
-	webpack5: true,
 	swcMinify: true,
 	images: {
 		domains: ['images.credential.net'],

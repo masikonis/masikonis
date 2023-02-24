@@ -1,6 +1,6 @@
 import React from 'react';
 import { useState, useEffect } from 'react';
-import Image from 'next/image';
+import Image from 'next/legacy/image';
 import { InView } from 'react-intersection-observer';
 import ReactPlayer from 'react-player';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
@@ -17,11 +17,11 @@ const Testimonials = (props) => {
 
 	function initVideoPlayer(inView = false, videoId = '') {
 		if (videoId == '351382262' && video1Markup == '' && inView === true) {
-			setVideo1Markup(<div style={playerWrapperStyles}><ReactPlayer url="https://vimeo.com/351382262" width="100%" height="100%" className="absolute top-0 left-0" /></div >);
+			setVideo1Markup(<div style={playerWrapperStyles}><ReactPlayer url="https://vimeo.com/351382262" width="100%" height="100%" className="absolute top-0 left-0" controls /></div >);
 		}
 
 		if (videoId == '543896594' && video2Markup == '' && inView === true) {
-			setVideo2Markup(<div style={playerWrapperStyles}><ReactPlayer url="https://vimeo.com/543896594" width="100%" height="100%" className="absolute top-0 left-0" /></div >);
+			setVideo2Markup(<div style={playerWrapperStyles}><ReactPlayer url="https://vimeo.com/543896594" width="100%" height="100%" className="absolute top-0 left-0" controls /></div >);
 		}
 	}
 
@@ -75,7 +75,6 @@ const Testimonials = (props) => {
 			<div className="container">
 				<h2 className="font-serif text-gray-800 text-xl md:text-2xl xl:text-3xl text-center">What People Say About Me</h2>
 				<p className="mt-4 font-sans text-gray-800 text-base xl:text-lg text-center">I have been lucky to work with fantastic people over the years. See what some of them have to say.</p>
-				{/*
 				<ul className="flex flex-col md:flex-row mt-6">
 					<li className="border-box mb-6 md:mb-0 md:flex-1 md:pr-10">
 						<div className="relative">
@@ -88,7 +87,7 @@ const Testimonials = (props) => {
 							<hr className="border-none block w-1/6 h-0.5 mx-auto my-4 bg-sky-700" />
 							<div>
 								<div className="font-serif text-gray-800 text-center text-lg">Dr. Jeffrey Vinokur</div>
-								<div className="font-sans font-bold text-sky-700 text-center text-sm xl:text-base">Founder, Generation Genius</div>
+								<div className="font-sans font-bold text-sky-700 text-center text-sm xl:text-base">CEO & Co-Founder, Generation Genius</div>
 								<div className="font-sans text-gray-800 text-center text-xs xl:text-sm uppercase">Los Angeles, USA</div>
 							</div>
 						</div>
@@ -110,7 +109,6 @@ const Testimonials = (props) => {
 						</div>
 					</li>
 				</ul>
-				*/}
 				<ul className="mt-10 md:flex">
 					{listItems}
 				</ul>

@@ -17,10 +17,8 @@ const Welcome = (props) => {
 						I'm Your Go-To Developer for Everything Web-Related
 					</h1>
 					<h2 className="mt-3 font-sans text-lg md:text-xl xl:text-xl">I helped build America’s #1 education startup and now advise early-stage founders.</h2>
-					<Link href="/experience">
-						<a className="inline-block bg-white hover:bg-transparent p-5 mt-6 rounded text-sky-700 hover:text-white border-2 border-white text-center text-sm xl:text-base font-sans font-bold uppercase">
-							Learn more about me
-						</a>
+					<Link href="/experience" className="inline-block bg-white hover:bg-transparent p-5 mt-6 rounded text-sky-700 hover:text-white border-2 border-white text-center text-sm xl:text-base font-sans font-bold uppercase">
+						Learn more about me
 					</Link>
 					<div className="block mt-6 opacity-25 md:hidden">
 						<Image src={illustration} layout="responsive" alt="illustration" />

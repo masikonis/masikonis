@@ -11,16 +11,12 @@ const Header = (props) => {
 					<div className="flex-1">
 						<div className="md:hidden">
 							<Link href="/">
-								<a>
-									<Image src={logoSmall} width={98} height={65} alt="logo" priority />
-								</a>
+								<Image src={logoSmall} width={98} height={65} alt="logo" priority />
 							</Link>
 						</div>
 						<div className="hidden md:block">
 							<Link href="/">
-								<a>
-									<Image src={logoBig} width={385} height={65} alt="logo" priority />
-								</a>
+								<Image src={logoBig} width={385} height={65} alt="logo" priority />
 							</Link>
 						</div>
 					</div>
