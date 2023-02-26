@@ -16,7 +16,7 @@ const Welcome = (props) => {
 					<h1 className="mt-2 font-serif text-3xl md:text-5xl xl:text-6xl max-w-2xl xl:max-w-4xl">
 						I'm Your Go-To Developer for Everything Web-Related
 					</h1>
-					<h2 className="mt-3 font-sans text-lg md:text-xl xl:text-xl">I helped build America’s #1 education startup and now advise early-stage founders.</h2>
+					<h2 className="mt-3 font-sans text-lg md:text-xl xl:text-xl">I helped build America’s #1 education startup, and I would be happy to assist you.</h2>
 					<Link href="/experience" className="inline-block bg-white hover:bg-transparent p-5 mt-6 rounded text-sky-700 hover:text-white border-2 border-white text-center text-sm xl:text-base font-sans font-bold uppercase">
 						Learn more about me
 					</Link>
