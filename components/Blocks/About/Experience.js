@@ -18,7 +18,7 @@ const Experience = (props) => {
 				<h2 className="mb-4 font-serif text-gray-800 text-lg md:text-xl">Generation Genius</h2>
 				<p className="mb-4 font-sans text-gray-800 text-base xl:text-base">Generation Genius is a Los Angeles based startup building an educational streaming service teaching kids about science &amp; math. During the early phase of the company’s growth I was invited to join as their first full-time web developer.</p>
 				<p className="mb-6 font-sans text-gray-800 text-base xl:text-base">I led a campaign to overhaul all the legacy systems they had in place. I implemented new features to the website, fixed numerous long-standing bugs, and created an easy way to run &amp; analyze split tests. In my 2 years leading the development growth scaled from 250K to 1.25M visitors per month along with a 6X increase in revenue.</p>
-				<p className="mb-6 font-sans text-gray-800 text-base xl:text-base">Generation Genius has been ranked the <strong>#1 Fastest Growing Education Company in America</strong> on the 2022 Inc5000 list based on an exceptional revenue growth rate of 4,891% from 2018 to 2021.</p>
+				<p className="mb-6 font-sans text-gray-800 text-base xl:text-base">Generation Genius, now not only ranked the <strong>#1 Fastest Growing Education Company in America</strong> on the 2022 Inc5000 list due to a staggering revenue growth rate of 4,891% from 2018 to 2021, has also garnered the tremendous honor of being named to <strong>TIME Magazine's list of 100 Most Influential Companies in the World for 2023</strong>. This prestigious recognition has us sharing the list with household names such as Apple, SpaceX, OpenAI, and Nvidia.</p>
 			</div>
 		</div>
 	);
