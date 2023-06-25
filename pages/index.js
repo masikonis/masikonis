@@ -21,7 +21,7 @@ const Index = (props) => {
 		<div id="IndexPage">
 			<Head>
 				<title>Full-Stack Web Developer – Nerijus Masikonis</title>
-				<meta name="description" content="I'm Your Go-To Developer for Everything Web-Related. I helped build America’s #1 education startup and now advise early-stage founders."></meta>
+				<meta name="description" content="I'm a T-Shaped Developer with Skills in Marketing and AI. I helped build America’s #1 education startup, and I would be happy to assist you."></meta>
 			</Head>
 			<Meta />
 			<Header />

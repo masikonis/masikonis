@@ -14,7 +14,6 @@ const Welcome = (props) => {
 						<Image src={illustration} width={475} height={358.25} alt="illustration" />
 					</div>
 					<h1 className="mt-2 font-serif text-3xl md:text-5xl xl:text-6xl max-w-2xl xl:max-w-4xl">
-						{/*I'm Your Go-To Developer for Everything Web-Related*/}
 						I'm a T-Shaped Developer with Skills in Marketing and AI
 					</h1>
 					<h2 className="mt-3 font-sans text-lg md:text-xl xl:text-xl">I helped build America’s #1 education startup, and I would be happy to assist you.</h2>
