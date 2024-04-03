@@ -21,7 +21,9 @@ const Header = (props) => {
 						</div>
 					</div>
 					<div className="flex-1 text-right">
-						<a href="https://app.codeable.io/tasks/new?ref=0yTeE&preferredContractor=35672" className="inline-block mt-2 bg-transparent hover:bg-white p-3 border-2 border-white rounded font-sans font-bold uppercase text-xs md:text-sm xl:text-base text-white hover:text-sky-700" target="_blank" rel="noopener noreferrer">Hire Me</a>
+						<a href="https://www.codeable.io/developers/nerijus-masikonis/?ref=0yTeE" className="inline-block mt-2 bg-transparent hover:bg-white p-3 border-2 border-white rounded font-sans font-bold uppercase text-xs md:text-sm xl:text-base text-white hover:text-sky-700" target="_blank" rel="noopener noreferrer">
+							Start a Project
+						</a>
 					</div>
 				</div>
 			</div>
