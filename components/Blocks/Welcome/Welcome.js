@@ -20,7 +20,7 @@ const Welcome = (props) => {
 						I helped build America’s #1 education startup, and I'm keen to add value to your team.
 					</h2>
 					<Link href="/experience" className="inline-block bg-white hover:bg-transparent p-5 mt-6 rounded text-sky-700 hover:text-white border-2 border-white text-center text-sm xl:text-base font-sans font-bold uppercase">
-						Learn more
+						My Background
 					</Link>
 					<div className="block mt-6 opacity-25 md:hidden">
 						<Image src={illustration} layout="responsive" alt="illustration" />

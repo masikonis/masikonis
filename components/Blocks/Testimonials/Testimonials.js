@@ -71,7 +71,7 @@ const Testimonials = (props) => {
 	};
 
 	return (
-		<section id="TestimonialsBlock" className="bg-gray-100 py-8">
+		<section id="TestimonialsBlock" className="bg-gray-100 py-9">
 			<div className="container">
 				<h2 className="font-serif text-gray-800 text-xl md:text-2xl xl:text-3xl text-center">What People Say About Me</h2>
 				<p className="mt-4 font-sans text-gray-800 text-base xl:text-lg text-center">I have been lucky to work with fantastic people over the years. See what some of them have to say.</p>
@@ -114,9 +114,11 @@ const Testimonials = (props) => {
 				<ul className="mt-10 md:flex mb-4">
 					{listItems}
 				</ul>
-				{/*<div className="mt-8 text-center">
-					<a href="https://www.codeable.io/developers/nerijus-masikonis/?ref=0yTeE" target="_blank" rel="noopener noreferrer" className="inline-block bg-sky-700 hover:bg-white p-4 border-white hover:border-sky-700 border-2 rounded text-white hover:text-sky-700 text-center font-bold uppercase text-base">Reviews on Codeable</a>
-				</div>*/}
+				<div className="mt-8 text-center">
+					<a href="https://www.codeable.io/developers/nerijus-masikonis/?ref=0yTeE" target="_blank" rel="noopener noreferrer" className="inline-block bg-sky-700 hover:bg-white p-4 border-white hover:border-sky-700 border-2 rounded text-white hover:text-sky-700 text-center font-bold uppercase text-base">
+						Browse Reviews on Codeable
+					</a>
+				</div>
 			</div>
 		</section>
 	);

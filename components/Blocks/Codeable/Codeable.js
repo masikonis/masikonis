@@ -5,8 +5,10 @@ const Codeable = (props) => {
 	return (
 		<section id="CodeableBlock" className="bg-white py-8">
 			<div className="container">
-				<h2 className="font-serif text-gray-800 text-xl md:text-2xl xl:text-3xl text-center">Hire Me on Codeable</h2>
-				<p className="mt-4 font-sans text-gray-800 text-base xl:text-lg text-center  xl:max-w-5xl xl:mx-auto">After a careful vetting process which included a professional review, technical exam, behavioral interview and live coding test, I was accepted into Codeable in 2017 to offer my services on their premium marketplace. Since then, I’ve completed over 130 projects for 46 clients, with a verified user rating of 4.96 out of 5 stars.</p>
+				<h2 className="font-serif text-gray-800 text-xl md:text-2xl xl:text-3xl text-center">Hire me on Codeable</h2>
+				<p className="mt-4 font-sans text-gray-800 text-base xl:text-lg text-center  xl:max-w-5xl xl:mx-auto">
+					As a carefully vetted expert on Codeable's premium marketplace, I offer a risk-free way to experience my skills first-hand. By hiring me for a test project, you can evaluate whether we're a good fit before making a long-term commitment.
+				</p>
 				<div className="md:flex md:mt-7 xl:max-w-5xl xl:mx-auto">
 					<div className="md:flex-1 md:flex md:items-center md:justify-center">
 						<div className="mt-6 md:mt-0 text-center">
@@ -48,7 +50,9 @@ const Codeable = (props) => {
 					</div>
 				</div>
 				<div className="mt-8 text-center">
-					<a href="https://www.codeable.io/developers/nerijus-masikonis/?ref=0yTeE" target="_blank" rel="noopener noreferrer" className="inline-block bg-sky-700 hover:bg-white p-4 border-white hover:border-sky-700 border-2 rounded text-white hover:text-sky-700 text-center font-bold uppercase text-base">Start a Project</a>
+					<a href="https://www.codeable.io/developers/nerijus-masikonis/?ref=0yTeE" target="_blank" rel="noopener noreferrer" className="inline-block bg-sky-700 hover:bg-white p-4 border-white hover:border-sky-700 border-2 rounded text-white hover:text-sky-700 text-center font-bold uppercase text-base">
+						Start a Test Project
+					</a>
 				</div>
 			</div>
 		</section>
