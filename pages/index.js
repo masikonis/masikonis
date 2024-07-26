@@ -20,8 +20,8 @@ const Index = (props) => {
 	return (
 		<div id="IndexPage">
 			<Head>
-				<title>Full-Stack Web Developer – Nerijus Masikonis</title>
-				<meta name="description" content="I'm a T-shaped web developer adept at marketing and AI. I helped build America’s #1 education startup, and I'm keen to add value to your team."></meta>
+				<title>Growth Marketing Engineer – Nerijus Masikonis</title>
+				<meta name="description" content="I'm a T-shaped growth marketing engineer augmented with AI. I helped build America’s #1 education startup, and I'm keen to add value to your team."></meta>
 			</Head>
 			<Meta />
 			<Header />
