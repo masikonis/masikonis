@@ -1,6 +1,6 @@
 import Head from 'next/head';
 import appleTouchImg from '/public/images/apple-touch-icon.png';
-import coverImg from '/public/images/cover.png';
+import coverImg from '/public/images/cover.jpg';
 
 const Meta = (props) => {
 	const appleImage = 'https://masikonis.lt' + appleTouchImg.src;
