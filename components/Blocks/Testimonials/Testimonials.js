@@ -10,6 +10,7 @@ import placeholderJeffrey from './images/jeffrey-video-thumb.jpg?lqip';
 import imageKim from './images/kim-cruickshanks.jpg';
 import imageChristophe from './images/christophe-prudent.jpg';
 import imageDaniel from './images/daniel-meza.jpg';
+import imageZach from './images/zach-grove.jpg';
 
 const Testimonials = (props) => {
 	const [video1Markup, setVideo1Markup] = useState('');
@@ -34,13 +35,21 @@ const Testimonials = (props) => {
 			'company': 'CEO, Fuze Branding',
 			'location': 'Los Angeles, USA'
 		},
+		// {
+		// 	'image': imageChristophe,
+		// 	'alt': 'Christophe Prudent',
+		// 	'quote': "Our agency had the fortune of working with Nerijus for more than 7 years. His development skills and expertise made him an invaluable part of our web development team. We absolutely offer our highest possible recommendation.",
+		// 	'name': 'Christophe Prudent',
+		// 	'company': 'CEO, Too Pixel',
+		// 	'location': 'Geneva, Switzerland'
+		// },
 		{
-			'image': imageChristophe,
-			'alt': 'Christophe Prudent',
-			'quote': "Our agency had the fortune of working with Nerijus for more than 7 years. His development skills and expertise made him an invaluable part of our web development team. We absolutely offer our highest possible recommendation.",
-			'name': 'Christophe Prudent',
-			'company': 'CEO, Too Pixel',
-			'location': 'Geneva, Switzerland'
+			'image': imageZach,
+			'alt': 'Zach Grove',
+			'quote': "What stands out about Nerijus is that he's not only excellent technically; he's a T-shaped developer with a breadth of marketing knowledge who can converse with marketing leadership about decisions that will impact revenue.",
+			'name': 'Zach Grove',
+			'company': 'VP of Marketing, Nextiva',
+			'location': 'Minneapolis, USA'
 		},
 		{
 			'image': imageDaniel,
@@ -49,7 +58,7 @@ const Testimonials = (props) => {
 			'name': 'Daniel Meza',
 			'company': 'CEO, Muze Development',
 			'location': 'Houston, USA'
-		}
+		},
 	];
 	const listItems = testimonials.map((testimonial, key) => {
 		return (
