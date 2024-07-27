@@ -17,7 +17,7 @@ const Welcome = (props) => {
 						I'm a T-Shaped Growth Marketing Engineer Augmented with AI
 					</h1>
 					<h2 className="mt-3 font-sans text-lg md:text-xl xl:text-xl">
-						I helped build America’s #1 education startup, and I'm keen to add value to your team.
+						I helped build America’s #1 education startup, and I'm keen to add value to your business.
 					</h2>
 					<Link href="/experience" className="inline-block bg-white hover:bg-transparent p-5 mt-6 rounded text-sky-700 hover:text-white border-2 border-white text-center text-sm xl:text-base font-sans font-bold uppercase">
 						Learn More
