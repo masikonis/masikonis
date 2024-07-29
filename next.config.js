@@ -8,7 +8,13 @@ module.exports = {
 	},
 	swcMinify: true,
 	images: {
-		domains: ['images.credential.net'],
+		remotePatterns: [
+			{
+				protocol: 'https',
+				hostname: 'images.credential.net',
+				pathname: '**',
+			}
+		],
 	},
 	async redirects() {
 		return [
