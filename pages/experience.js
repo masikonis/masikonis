@@ -7,7 +7,6 @@ import Meta from 'components/Utilities/Meta';
 import Header from 'components/Blocks/Header/Header';
 import About from 'components/Blocks/About/About';
 import Testimonials from 'components/Blocks/Testimonials/Testimonials';
-import Codeable from 'components/Blocks/Codeable/Codeable';
 import Footer from 'components/Blocks/Footer/Footer';
 
 const Experience = (props) => {
@@ -26,7 +25,6 @@ const Experience = (props) => {
 			<Meta />
 			<Header />
 			<About />
-			<Codeable />
 			<Testimonials />
 			<Footer />
 		</div>

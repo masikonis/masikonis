@@ -121,11 +121,11 @@ const Testimonials = (props) => {
 				<ul className="mt-10 md:flex mb-4">
 					{listItems}
 				</ul>
-				<div className="mt-8 text-center">
+				{/* <div className="mt-8 text-center">
 					<a href="https://www.codeable.io/developers/nerijus-masikonis/?ref=0yTeE" target="_blank" rel="noopener noreferrer" className="inline-block bg-sky-700 hover:bg-white p-4 border-white hover:border-sky-700 border-2 rounded text-white hover:text-sky-700 text-center font-bold uppercase text-base">
 						Browse Reviews on Codeable
 					</a>
-				</div>
+				</div> */}
 			</div>
 		</section>
 	);
