@@ -6,7 +6,6 @@ module.exports = {
 			'/': { page: '/' }
 		};
 	},
-	swcMinify: true,
 	images: {
 		remotePatterns: [
 			{

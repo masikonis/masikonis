@@ -13,24 +13,27 @@
 	"author": "Nerijus Masikonis",
 	"license": "ISC",
 	"dependencies": {
-		"@fortawesome/fontawesome-svg-core": "^1.2.35",
-		"@fortawesome/free-brands-svg-icons": "^5.15.3",
-		"@fortawesome/free-solid-svg-icons": "^5.15.3",
+		"@fortawesome/fontawesome-svg-core": "^6.7.1",
+		"@fortawesome/free-brands-svg-icons": "^6.7.1",
+		"@fortawesome/free-solid-svg-icons": "^6.7.1",
 		"@fortawesome/react-fontawesome": "^0.2.2",
-		"classnames": "^2.3.0",
-		"eslint-config-next": "^14.2.5",
+		"classnames": "^2.5.1",
+		"eslint-config-next": "^15.0.3",
 		"fontfaceobserver": "^2.1.0",
-		"js-cookie": "^3.0.1",
-		"next": "^14.2.5",
+		"js-cookie": "^3.0.5",
+		"next": "^15.0.3",
 		"react": "^18.3.1",
 		"react-dom": "^18.3.1",
 		"react-gtm-module": "^2.0.11",
-		"react-intersection-observer": "^8.31.0",
-		"react-player": "^2.11.2"
+		"react-intersection-observer": "^9.13.1",
+		"react-player": "^2.16.0"
 	},
 	"devDependencies": {
-		"autoprefixer": "^10.4.4",
-		"postcss": "^8.4.12",
-		"tailwindcss": "^3.0.23"
+		"autoprefixer": "^10.4.20",
+		"postcss": "^8.4.49",
+		"tailwindcss": "^3.4.15"
+	},
+	"engines": {
+		"node": ">=22.x"
 	}
 }
