@@ -96,7 +96,7 @@ const Testimonials = (props) => {
 							<hr className="border-none block w-1/6 h-0.5 mx-auto my-4 bg-sky-700" />
 							<div>
 								<div className="font-serif text-gray-800 text-center text-lg">Dr. Jeffrey Vinokur</div>
-								<div className="font-sans font-bold text-sky-700 text-center text-sm xl:text-base">CEO & Co-Founder, Generation Genius</div>
+								<div className="font-sans font-bold text-sky-700 text-center text-sm xl:text-base">CEO & Co-Founder, <a href="https://www.generationgenius.com/" target="_blank" rel="noopener noreferrer" className="underline hover:no-underline">Generation Genius</a></div>
 								<div className="font-sans text-gray-800 text-center text-xs xl:text-sm uppercase">Los Angeles, USA</div>
 							</div>
 						</div>
@@ -112,7 +112,7 @@ const Testimonials = (props) => {
 							<hr className="border-none block w-1/6 h-0.5 mx-auto my-4 bg-sky-700" />
 							<div>
 								<div className="font-serif text-gray-800 text-center text-lg">Eric Siu</div>
-								<div className="font-sans font-bold text-sky-700 text-center text-sm xl:text-base">CEO, Single Grain</div>
+								<div className="font-sans font-bold text-sky-700 text-center text-sm xl:text-base">CEO, <a href="https://www.singlegrain.com/" target="_blank" rel="noopener noreferrer" className="underline hover:no-underline">Single Grain</a></div>
 								<div className="font-sans text-gray-800 text-center text-xs xl:text-sm uppercase">Los Angeles, USA</div>
 							</div>
 						</div>
