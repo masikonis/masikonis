@@ -14,10 +14,10 @@ const Welcome = (props) => {
 						<Image src={illustration} width={475} height={358.25} alt="illustration" />
 					</div>
 					<h1 className="mt-2 font-serif text-3xl md:text-5xl xl:text-6xl max-w-2xl xl:max-w-5xl">
-						I’m a T-Shaped Web Developer Focused on Business Outcomes
+						I’m a T-Shaped Web Developer Supporting Early-Stage Founders
 					</h1>
 					<h2 className="mt-3 font-sans text-lg md:text-xl xl:text-xl">
-						I helped build America’s #1 education startup and am ready to deliver value to you.
+						I helped build America’s #1 EdTech startup and am ready to help you move forward.
 					</h2>
 					<Link href="/experience" className="inline-block bg-white hover:bg-transparent p-5 mt-6 rounded text-sky-700 hover:text-white border-2 border-white text-center text-sm xl:text-base font-sans font-bold uppercase">
 						Learn More
