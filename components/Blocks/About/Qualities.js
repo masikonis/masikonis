@@ -12,7 +12,7 @@ const Qualities = (props) => {
 				<Image src={avatarImg} width={175} height={175} alt="Nerijus Masikonis" className="rounded-full" />
 			</div>
 			<h3 className="mt-3 font-serif text-white text-xl">
-				{"Hi, my name is Nerijus 👋 I’m a stack-agnostic"} <strong className="font-bold">{"web developer"}</strong> {"based in Lithuania, Europe."}
+				{"Hi, my name is Nerijus 👋 I’m a stack-agnostic"} <strong className="font-bold">{"web developer"}</strong> {"based in Lithuania, working remotely for U.S. companies."}
 			</h3>
 			<ul className="mt-10">
 				<li className="box-border pl-20 mb-5 bg-no-repeat" style={{ backgroundImage: `url(${briefcaseIcon.src})` }}>
