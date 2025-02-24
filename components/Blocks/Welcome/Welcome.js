@@ -17,7 +17,7 @@ const Welcome = (props) => {
 						I’m a T-Shaped Web Developer Supporting Early-Stage Founders
 					</h1>
 					<h2 className="mt-3 font-sans text-lg md:text-xl xl:text-xl">
-						I helped build America’s #1 EdTech startup and am ready to help you move forward.
+						I helped build America’s #1 EdTech startup to a $100M exit, now open to supporting your journey.
 					</h2>
 					<Link href="/experience" className="inline-block bg-white hover:bg-transparent p-5 mt-6 rounded text-sky-700 hover:text-white border-2 border-white text-center text-sm xl:text-base font-sans font-bold uppercase">
 						Learn More

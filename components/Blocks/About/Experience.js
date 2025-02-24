@@ -4,10 +4,10 @@ const Experience = (props) => {
 			<div className="xl:max-w-10xl">
 				<h1 className="font-serif mb-6 text-3xl text-center lg:text-left md:text-4xl xl:text-4xl text-gray-800">About Me</h1>
 				<p className="mb-4 font-sans text-gray-800 text-base xl:text-base">{"Since building my first website in 2010, I've had a passion for web development that has evolved to include "}<strong>digital marketing</strong>{" and, most recently, "}<strong>artificial intelligence</strong>{". As a full-stack web developer, I help companies navigate the interplay of these three domains."}</p>
-				<p className="mb-4 font-sans text-gray-800 text-base xl:text-base">I’ve worked full-time remotely for over 14 years with clients from both America and Europe. No matter the time difference, I pride myself on getting the work done on time and mesh seamlessly with any team that values effective communication.</p>
+				<p className="mb-4 font-sans text-gray-800 text-base xl:text-base">I've worked full-time remotely for over 14 years with clients from both America and Europe. No matter the time difference, I pride myself on getting the work done on time and mesh seamlessly with any team that values effective communication.</p>
 				<p className="mb-8 font-sans text-gray-800 text-base xl:text-base">My roles as a lead developer and growth engineer have honed my ability to think on my feet and solve problems under pressure. I love working directly with founders and small teams, contributing to product development, growth strategies, and AI-driven solutions.</p>
 				<h2 className="mb-4 font-serif text-gray-800 text-2xl">Work Experience</h2>
-				<p className="mb-6 font-sans text-gray-800 text-base xl:text-base">Over the years I’ve had the pleasure to work with some truly great companies and clients.</p>
+				<p className="mb-6 font-sans text-gray-800 text-base xl:text-base">Over the years I've had the pleasure to work with some truly great companies and clients.</p>
 				<h2 className="mb-4 font-serif text-gray-800 text-lg md:text-xl">Too Pixel</h2>
 				<p className="mb-4 font-sans text-gray-800 text-base xl:text-base">Too Pixel was a web design agency in Geneva, Switzerland, offering tailor-made solutions to clients. I was one of the first people they hired. Not long after, I became the lead developer, overseeing projects for well-known names like CERN, Notz Stucki, EPFL, Newby of London, and others.</p>
 				<p className="mb-6 font-sans text-gray-800 text-base xl:text-base">My 7 years working full-time remotely for Too Pixel helped me master my <strong>core skill of web development</strong>. The traditional agency atmosphere also helped me learn how to work effectively as part of a team with high-stakes projects on the line.</p>
@@ -48,7 +48,16 @@ const Experience = (props) => {
 					>
 						TIME Magazine's list
 					</a>
-					{' '}of the <strong>100 Most Influential Companies</strong> in the World for 2023. This prestigious recognition has us sharing the list with household names such as Apple, SpaceX, OpenAI, and Nvidia.
+					{' '}of the <strong>100 Most Influential Companies</strong> in the World for 2023. This remarkable journey led to a{' '}
+					<a 
+						href="https://marketbrief.edweek.org/strategy-operations/newsela-expands-presence-into-math-and-science-by-acquiring-generation-genius/2025/02"
+						className="text-gray-800 underline hover:no-underline"
+						target="_blank"
+						rel="noopener noreferrer"
+					>
+						$100M acquisition by Newsela
+					</a>
+					{' '}in 2025.
 				</p>
 			</div>
 		</div>
