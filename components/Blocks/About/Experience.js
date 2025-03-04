@@ -24,11 +24,11 @@ const Experience = (props) => {
 					</a>
 					{" "}with Neil Patel.
 				</p>
-				<p className="mb-4 font-sans text-gray-800 text-base xl:text-base">My primary skill was web development, but working closely with expert marketers taught me a lot about digital marketing quickly. I was then asked to be part of the Growth Team, which focused on expanding Eric's personal brand and new projects. We followed a 'lean startup' approach, which meant I had to learn new skills fast and find solutions to problems working with limited resources.</p>
-				<p className="mb-4 font-sans text-gray-800 text-base xl:text-base">I've consistently pursued technological innovation throughout my career, particularly in artificial intelligence. What began as my personal initiative at Single Grain - the AI Workforce project - has evolved into the <strong>Agent Platform</strong>, an AI-enabled technology I'm instrumental in developing that empowers digital marketers to <strong>massively scale</strong> both their output and quality through intelligent workflows and automation.</p>
+				<p className="mb-4 font-sans text-gray-800 text-base xl:text-base">My primary skill was web development, but working closely with expert marketers taught me a lot about digital marketing quickly. When invited to join the Growth Team, I embraced the opportunity to help expand Eric's personal brand and new projects. Following a 'lean startup' approach, I developed versatile skills and innovative solutions while working with limited resources.</p>
+				<p className="mb-4 font-sans text-gray-800 text-base xl:text-base">Throughout my career, I've pursued technological innovation, particularly in artificial intelligence. What began as my initiative at Single Grain - the AI Workforce project - has evolved into the <strong>Agent Platform</strong>, an AI-enabled technology I'm helping develop that empowers digital marketers to <strong>massively scale</strong> both their output and quality through intelligent workflows and automation.</p>
 				<h2 className="mb-4 font-serif text-gray-800 text-lg md:text-xl">Generation Genius</h2>
 				<p className="mb-4 font-sans text-gray-800 text-base xl:text-base">Generation Genius is a learning tool for grades K-8 that makes science fun and educational with videos, lesson plans, activities, quizzes, and reading materials.</p>
-				<p className="mb-6 font-sans text-gray-800 text-base xl:text-base">As the first full-time developer, I was in charge of improving the website, adding new features, and fixing problems with old systems. In my two years leading the development, the website's visitors grew from 250K to 1.25M monthly, and revenue increased sixfold. Afterward, I transitioned into a consulting developer role, contributing strategic insights, mentoring new developers, and shaping long-term technical decisions.</p>
+				<p className="mb-6 font-sans text-gray-800 text-base xl:text-base">As the first full-time developer and technical lead, I was responsible for transforming and scaling the website into a robust educational platform. During my time leading the development, the site grew from 250K to 1.25M monthly visitors, while revenue increased sixfold. After building the core technical foundation, I transitioned to a consulting role, providing strategic guidance and mentoring the expanding development team.</p>
 				<p className="mb-6 font-sans text-gray-800 text-base xl:text-base">
 					Generation Genius was the <strong>#1 Fastest Growing Education Company in America</strong>, according to the{' '}
 					<a 
@@ -39,7 +39,7 @@ const Experience = (props) => {
 					>
 						2022 Inc5000 list
 					</a>
-					, with a revenue growth of 4,891% from 2018 to 2021. It also earned a spot on{' '}
+					, with a revenue growth of 4,891% from 2018 to 2021. The company's impact on education earned it recognition on{' '}
 					<a 
 						href="https://time.com/collection/time100-companies-2023/"
 						className="text-gray-800 underline hover:no-underline"
@@ -48,7 +48,7 @@ const Experience = (props) => {
 					>
 						TIME Magazine's list
 					</a>
-					{' '}of the <strong>100 Most Influential Companies</strong> in the World for 2023. This remarkable journey led to a{' '}
+					{' '}of the <strong>100 Most Influential Companies</strong> in the World for 2023, culminating in a{' '}
 					<a 
 						href="https://marketbrief.edweek.org/strategy-operations/newsela-expands-presence-into-math-and-science-by-acquiring-generation-genius/2025/02"
 						className="text-gray-800 underline hover:no-underline"
