@@ -20,7 +20,7 @@ const Experience = (props) => {
 		<div id="IndexPage">
 			<Head>
 				<title>About Me – Nerijus Masikonis</title>
-				<meta name="description" content="Experienced full-stack web developer blending web development, digital marketing, and AI to help companies thrive since 2010."></meta>
+				<meta name="description" content="I’m a developer who combines hands-on technical skills with marketing and AI experience to help seed-stage U.S. companies grow faster."></meta>
 			</Head>
 			<Meta />
 			<Header />
